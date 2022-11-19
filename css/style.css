@@ -422,7 +422,7 @@ a:hover{
         grid-column: 2/3;
         display: flex;
         justify-content: center;
-        align-items: center;    
+        align-items: center;
     }
 
     .img-b04{
@@ -537,60 +537,6 @@ nav a{
     font-family: "greback grotesque";
     font-size: 1.5em;
 }
-/* --------------------------------------------------------------- */
-/* main index SIN CAROUSEL*/
-/* .index-section-m{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5em;
-    margin: 0.5em;
-}
-.img-1 img h1{
-    padding: 0.5em;
-    margin: 0.5em;
-}
-.h1-index-main{
-    position: absolute;
-    top: 14em;
-    left: 14em;
-    font-family: "greback grotesque";
-    font-size: 4em;
-    color:#F2F2F2;
-    padding: 0.3em;
-    margin: 0.3em
-}
-.img-2 img{
-    padding: 0.5em;
-    margin: 0.5em;
-    text-align: center;
-}
-.h2-index-main{
-    position: absolute;
-    top: 29em;
-    left: 14em;
-    font-family: "greback grotesque";
-    font-size: 4em;
-    color: #403D3D;
-    padding: 0.3em;
-    margin: 0.3em
-}
-.img-3 img{
-    padding: 0.5em;
-    margin: 0.5em;
-}
-.p-index-main{
-    position: absolute;
-    top: 86em;
-    left: 23em;
-    font-family: "greback grotesque";
-    font-size: 2.1em;
-    color: #BFB9B8;
-    padding: 0.3em;
-    margin: 0.3em
-} */
-
 /* --------------------------------------------------------------- */
 
 /* footer */
@@ -1123,7 +1069,7 @@ nav a{
     box-shadow: 10px 5px 5px #403D3D;
 }
 /* ----------------------------------------- */
-/* @MediaQuerys  Que HACEMOS*/
+/* @MediaQuerys  Que HACEMOS MOBILE FIRST*/
 @media (min-width: 360px) and (max-width: 767px){
 
     .flex-container-body-que header{
