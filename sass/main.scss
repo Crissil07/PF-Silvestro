@@ -551,9 +551,9 @@ header{
         "xq xq"
         "razon img"
         "img cont";
-        section{
-                /* background-color: aqua; */
-                grid-area: xq;
+        .razones{
+            /* background-color: aqua; */
+            grid-area: xq;
             grid-column: 1/3;
             grid-row: 1/2;
             display: flex;
@@ -571,8 +571,8 @@ header{
                 box-shadow: 10px 5px 5px #403D3D;
             }
         }
-        div{
-                /* background-color: yellow; */
+        .preg-container{
+            /* background-color: yellow; */
             grid-area: razon;
             grid-column: 1/2;
             grid-row: 2/3;
@@ -685,21 +685,21 @@ header{
                     margin: 0%;
                 }
             }
-            .preg-box05{
-                /* background-color: orange; */
-                grid-area: img;
-                grid-column: 2/3;
-                grid-row: 2/3;
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 100%;
-                img{
-                    width: 95%;
-                    border-radius: 5em;
-                    box-shadow: 10px 5px 5px #403D3D;
-                }
+            
+        }
+        .preg-box05{
+            /*background-color: orange;*/
+            grid-area: img;
+            grid-column: 2/3;
+            grid-row: 2/3;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .razon-img{
+                width: 95%;
+                border-radius: 5em;
+                box-shadow: 10px 5px 5px #403D3D;
             }
         }
         .contacto{
