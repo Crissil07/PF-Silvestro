@@ -5,25 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./sass/main.css">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/Icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/Icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/Icon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/Icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/Icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/Icon/favicon-16x16.png">
     <title>Silvestro - Arquitectura</title>
-    <meta name="description" content="ARQUITECTURA-DISEÑO-SOLUCIONES CONSTRUCTIVAS - QUIENES SOMOS">
+    <meta name="description" content="ARQUITECTURA-DISEÑO-SOLUCIONES CONSTRUCTIVAS. Brindamos soluciones a problemas patologicos constructivos, y a su ves, llevamos a cabo la construccion del sueño tu propia casa.">
     <meta name="keywords" content="construccion, diseño, arquitectura, hormigon, estructuras, hierro, proyectos, render, dibujo, 2d, 3d, direccion de obra, sustentabilidad, faud, unc"> 
 </head>
-<body class="flex-container-body">
+<body class="body-landing">
     <header>
-        <a class="logo" href="./LandingPage.html">
-        <!-- logo -->
+        <a class="logo" href="#">
             <img src="./assets/Icon/favicon.ico" alt="icono arq">
         </a>
         <nav>
-            <!-- menu navegable -->
             <ul>
-                <li><a href="#">¿Quienes somos?</a></li>
+                <li><a href="./home.html">¿Quienes somos?</a></li>
                 <li><a href="./pages/proyects.html">Proyectos</a></li>
                 <li><a href="./pages/whatWeDo.html">¿Que hacemos?</a></li>
                 <li><a href="./pages/ourTeam.html">Equipo</a></li>
@@ -31,52 +27,57 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="carousel-container">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img src="./assets/img/Slider/slider01.jpg" class="d-block w-100" alt="solucion">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>Desde el problema a la solucion.</h1>
-                    </div>
-                    </div>
-                    <div class="carousel-item">
-                    <img src="./assets/img/Slider/slider02.jpg" class="d-block w-100" alt="realidad">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1>Desde los sueños a la realidad</h1>
-                    </div>
-                    </div>
-                    <div class="carousel-item">
-                    <img src="./assets/img/Slider/slider03.jpg" class="d-block w-100" alt="casa">
-                    <div class="carousel-caption d-none d-md-block">
-                        <p class="p-index-main">
-                            Somos un grupo de arquitectos que ofrecemos soluciones
-                            a problemas derivados 
-                            <br> 
-                            de patologias constructivas.
-                            Tambien analizamos la morfologia y funcionalidad 
-                            de los <br>
-                            diseños e ideas de nuestros clientes
-                            para mejorar y alcanzar los objetivos deseados.
-                        </p>
-                    </div>
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+    <main class="main-landing">
+        <div class="box01">
+            <h2>¿Quienes somos?</h2>
+                <p>
+                    Somos un grupo de arquitectos que ofrecemos soluciones
+                    a problemas derivados de patologias constructivas.
+                    Tambien analizamos la morfologia y funcionalidad de los 
+                    diseños e ideas de nuestros clientes para mejorar y 
+                    alcanzar los objetivos deseados.
+                </p>
+        </div>
+        <div class="box02-img">
+            <img class="img-b02" src="./assets/img/LandingImg/intro01.jpg" alt="casaIntro">
+        </div>
+        <div class="box03">
+            <h2>¿Que hacemos?</h2>
+            <ul>
+                <li>Diseño de Equipamientos</li>
+                <li>Diseño de exteriores</li>
+                <li>Seguimiento en obra</li>
+                <li>Apoyo universitario</li>
+                <li>Tramites municipales</li>
+            </ul>
+        </div>
+        <div class="box04-img">
+            <img class="img-b04" src="./assets/img/LandingImg/trabajo01.jpg" alt="">
+        </div>
+        <div class="box05">
+            <h2>¿Porque un arquitecto?</h2>
+                <p>
+                    Somos un grupo de arquitectos que ofrecemos soluciones
+                    a problemas derivados de patologias constructivas.
+                    Tambien analizamos la morfologia y funcionalidad de los 
+                    diseños e ideas de nuestros clientes para mejorar y 
+                    alcanzar los objetivos deseados.
+                </p>
+        </div>
+        <div class="box06-img">
+            <img class="img-b06" src="./assets/img/LandingImg/cliente01.jpg" alt="cliente">
+        </div>
+        <div class="box07">
+            <h2>La felicidad en nuestros clientes</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Aperiam soluta animi pariatur ipsam tempora, voluptatibus, 
+            laborum reprehenderit aliquid dolorem obcaecati quia voluptate 
+            dignissimos non aspernatur placeat. Vero laborum ut doloribus!
+            Aliquid, iure doloremque, eaque officia suscipit voluptas ullam, 
+            eos veritatis libero facere quia? Provident autem natus quis nostrum, 
+            nam eveniet dolores incidunt ut quasi tempora aliquid expedita voluptas! 
+            Recusandae, maxime.</p>
         </div>
     </main>
     <footer class="container-social">
@@ -101,8 +102,5 @@
             </div>
         </div>
     </footer>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
-    </script>
 </body>
 </html>
