@@ -6,6 +6,619 @@
   font-family: "greback grotesque";
   src: url("../assets/fonts/Greback Grotesque.otf");
 }
+/*@MediaQuery LANDING PAGE - MOBILE FIRST*/
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .body-landing {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon.jpg");
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .body-landing header {
+    height: 3em;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB9B8;
+    align-items: center;
+    width: 100;
+  }
+  .body-landing header a img {
+    width: 2em;
+    margin: 2em;
+  }
+  .body-landing header nav ul li {
+    list-style-type: none;
+    margin: 0.1em;
+  }
+  .body-landing header nav ul li a {
+    flex-direction: row;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 0.68em;
+  }
+  .body-landing .main-landing {
+    display: flex;
+    flex-direction: column;
+  }
+  .body-landing .main-landing .box01 {
+    max-width: 100vw;
+    max-height: 100%;
+  }
+  .body-landing .main-landing .box01 h2 {
+    font-size: 1.7em;
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .body-landing .main-landing .box01 p {
+    font-size: 1.2em;
+    font-family: "greback grotesque";
+    text-align: justify;
+    padding: 1.2em;
+  }
+  .body-landing .main-landing .box02-img {
+    align-items: center;
+  }
+  .body-landing .main-landing .box02-img img {
+    width: 90%;
+    height: auto;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .body-landing .main-landing .box03 {
+    font-family: "greback grotesque";
+    max-width: 100vw;
+    max-height: 100%;
+  }
+  .body-landing .main-landing .box03 ul {
+    line-height: 0.005em;
+    padding: 0;
+  }
+  .body-landing .main-landing .box03 h2 {
+    font-size: 1.7em;
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .body-landing .main-landing .box03 li {
+    font-size: 1.2em;
+    list-style-type: none;
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .body-landing .main-landing .box04-img {
+    align-items: center;
+  }
+  .body-landing .main-landing .box04-img img {
+    width: 85%;
+    height: auto;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .body-landing .main-landing .box05 {
+    max-width: 100vw;
+    max-height: 100%;
+  }
+  .body-landing .main-landing .box05 h2 {
+    font-size: 1.7em;
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .body-landing .main-landing .box05 p {
+    font-size: 1.2em;
+    font-family: "greback grotesque";
+    text-align: justify;
+    padding: 1.2em;
+  }
+  .body-landing .main-landing .box06-img {
+    align-items: center;
+  }
+  .body-landing .main-landing .box06-img img {
+    width: 85%;
+    height: auto;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .body-landing .main-landing .box07 {
+    grid-column: 1/2;
+    max-width: 100vw;
+    max-height: 100%;
+  }
+  .body-landing .main-landing .box07 h2 {
+    font-size: 1.7em;
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .body-landing .main-landing .box07 p {
+    font-size: 1.2em;
+    font-family: "greback grotesque";
+    text-align: justify;
+    padding: 1.2em;
+  }
+  .body-landing .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BFB9B8;
+  }
+  .body-landing .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+  }
+  .body-landing .container-social div a {
+    text-decoration: none;
+  }
+  .body-landing .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 1em;
+    justify-content: center;
+  }
+}
+/*@MediaQuery LANDING PAGE - TABLET*/
+/*@MediaQuery LANDING PAGE - DESKTOP*/
+@media only screen and (min-width: 1200px) and (max-width: 1680px) {
+  .body-landing {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon.jpg");
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .body-landing header {
+    height: 5em;
+    background-color: #BFB9B8;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .body-landing header a img {
+    width: 4em;
+    padding-left: 0%;
+    margin-left: 0%;
+  }
+  .body-landing header nav ul li {
+    list-style-type: none;
+    margin: 0.1em;
+  }
+  .body-landing header nav ul li a {
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 1.2em;
+    padding: 0.5em;
+  }
+  .body-landing .main-landing {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 30% 30% 40%;
+    grid-template-areas: "uno . img01" "tres img02 cinco" "img03 . siete";
+  }
+  .body-landing .main-landing .box01 {
+    grid-area: uno;
+    grid-column: 1/2;
+  }
+  .body-landing .main-landing .box01 h2 {
+    font-size: 2em;
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .body-landing .main-landing .box01 p {
+    font-size: 1.6em;
+    font-family: "greback grotesque";
+    text-align: left;
+    padding: 1.2em;
+  }
+  .body-landing .main-landing .box02-img {
+    grid-area: img01;
+    grid-column: 2/4;
+    justify-content: center;
+    align-items: center;
+  }
+  .body-landing .main-landing .box02-img img {
+    height: 80%;
+    width: 95%;
+    border-radius: 5em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .body-landing .main-landing .box03 {
+    grid-area: tres;
+    font-family: "greback grotesque";
+    grid-column: 1/2;
+  }
+  .body-landing .main-landing .box03 ul li {
+    font-size: 1.6em;
+    line-height: 2em;
+    list-style-type: none;
+    font-family: "greback grotesque";
+    text-align: left;
+    padding: 0.5em;
+  }
+  .body-landing .main-landing .box03 h2 {
+    font-size: 2em;
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .body-landing .main-landing .box04-img {
+    grid-area: img02;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .body-landing .main-landing .box04-img .img-b04 {
+    height: 60%;
+    border-radius: 5em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .body-landing .main-landing .box05 {
+    grid-area: cinco;
+  }
+  .body-landing .main-landing .box05 h2 {
+    font-size: 2em;
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .body-landing .main-landing .box05 p {
+    font-size: 1.6em;
+    font-family: "greback grotesque";
+    text-align: right;
+    padding: 1.2em;
+  }
+  .body-landing .main-landing .box06-img {
+    grid-area: img03;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+  }
+  .body-landing .main-landing .box06-img img {
+    height: 90%;
+    border-radius: 5em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .body-landing .main-landing .box07 {
+    grid-area: siete;
+    grid-column: 3/4;
+  }
+  .body-landing .main-landing .box07 h2 {
+    font-size: 2em;
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .body-landing .main-landing .box07 p {
+    font-size: 1.6em;
+    font-family: "greback grotesque";
+    text-align: justify;
+    padding: 1.2em;
+  }
+  .body-landing .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BFB9B8;
+  }
+  .body-landing .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+  }
+  .body-landing .container-social div a {
+    text-decoration: none;
+  }
+  .body-landing .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 1.2em;
+    justify-content: center;
+  }
+}
+/* @MediaQuerys  Que HACEMOS MOBILE FIRST*/
+@media (min-width: 360px) and (max-width: 767px) {
+  .flex-container-body-que {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon.jpg");
+    background: cover;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .flex-container-body-que header {
+    height: 3em;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB9B8;
+    align-items: center;
+    width: 100%;
+  }
+  .flex-container-body-que header a img {
+    width: 2em;
+    margin: 2em;
+  }
+  .flex-container-body-que header nav ul li {
+    list-style-type: none;
+    margin: 0.1em;
+  }
+  .flex-container-body-que header nav ul li a {
+    flex-direction: row;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 0.68em;
+  }
+  .flex-container-body-que .main-queHacemos-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container-body-que .main-queHacemos-container section h1 {
+    font-size: 1em;
+    font-family: "greback grotesque";
+    text-align: center;
+    padding: 0.5em;
+    color: #F2F2F2;
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #403D3D;
+    border-radius: 0.3em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container {
+    height: 80%;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container h3 {
+    background-color: #403D3D;
+    font-family: "greback grotesque";
+    margin: 0;
+    padding: 0.5em;
+    font-size: 0.8em;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container p {
+    font-family: "greback grotesque";
+    list-style-type: none;
+    padding: 0.5em;
+    margin: 0%;
+    font-size: 0.75em;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container .card-what01 {
+    background-color: #F2F2F2;
+    width: 85%;
+    padding: 0.5em;
+    margin: 1em;
+    border: solid 0.3em;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container .card-what02 {
+    background-color: #F2F2F2;
+    width: 85%;
+    padding: 0.5em;
+    margin: 1em;
+    border: solid 0.3em;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container .card-what03 {
+    background-color: #F2F2F2;
+    width: 85%;
+    padding: 0.5em;
+    margin: 1em;
+    border: solid 0.3em;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container .card-what04 {
+    background-color: #F2F2F2;
+    width: 85%;
+    padding: 0.5em;
+    margin: 1em;
+    border: solid 0.3em;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container .card-what05 {
+    background-color: #F2F2F2;
+    width: 85%;
+    padding: 0.5em;
+    margin: 1em;
+    border: solid 0.3em;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
+    height: 90%;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-img-container .hacemos-img {
+    width: 90%;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px  #403D3D;
+  }
+  .flex-container-body-que .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+  }
+  .flex-container-body-que .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+    height: 65%;
+    background-color: #BFB9B8;
+  }
+  .flex-container-body-que .container-social div a {
+    text-decoration: none;
+  }
+  .flex-container-body-que .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 0.8em;
+    justify-content: center;
+  }
+}
+/* @MediaQuerys  Que HACEMOS DESKTOP*/
+@media (min-width: 1200px) and (max-width: 1680px) {
+  .flex-container-body-que {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon.jpg");
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container-body-que header {
+    height: 4em;
+    background-color: #BFB9B8;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flex-container-body-que header a img {
+    width: 4em;
+    padding-left: 0%;
+    margin-left: 0%;
+  }
+  .flex-container-body-que header nav ul li {
+    list-style-type: none;
+    margin: 0.1em;
+  }
+  .flex-container-body-que header nav ul li a {
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 1.2em;
+    padding: 0.5em;
+  }
+  .flex-container-body-que .main-queHacemos-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "que que" "razon img";
+  }
+  .flex-container-body-que .main-queHacemos-container section {
+    grid-area: que;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .flex-container-body-que .main-queHacemos-container section h1 {
+    font-size: 2em;
+    font-family: "greback grotesque";
+    text-align: center;
+    padding: 0.5em;
+    color: #F2F2F2;
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #403D3D;
+    border-radius: 0.3em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container {
+    grid-area: razon;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 55%;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container h3 {
+    background-color: #403D3D;
+    font-family: "greback grotesque";
+    border-radius: 0.3em;
+    color: #F2F2F2;
+    margin: 0;
+    padding: 0.5em;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container p {
+    font-family: "greback grotesque";
+    list-style-type: none;
+    padding: 0.5em;
+    margin: 0%;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container .card-what01 {
+    background-color: #F2F2F2;
+    width: 92%;
+    padding: 0.5em;
+    margin: 1em;
+    border: solid 0.3em;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container .card-what02 {
+    background-color: #F2F2F2;
+    width: 92%;
+    padding: 0.5em;
+    margin: 1em;
+    border: solid 0.3em;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container .card-what03 {
+    background-color: #F2F2F2;
+    width: 92%;
+    padding: 0.5em;
+    margin: 1em;
+    border: solid 0.3em;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container .card-what04 {
+    background-color: #F2F2F2;
+    width: 92%;
+    padding: 0.5em;
+    margin: 1em;
+    border: solid 0.3em;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-container .card-what05 {
+    background-color: #F2F2F2;
+    width: 92%;
+    padding: 0.5em;
+    margin: 1em;
+    border: solid 0.3em;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-img-container {
+    grid-area: img;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 90%;
+    align-items: center;
+  }
+  .flex-container-body-que .main-queHacemos-container .what-img-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 95%;
+    border-radius: 5em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-que .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BFB9B8;
+  }
+  .flex-container-body-que .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+  }
+  .flex-container-body-que .container-social div a {
+    text-decoration: none;
+  }
+  .flex-container-body-que .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 1.2em;
+    justify-content: center;
+  }
+}
 /* colores de links (Funcionan mal en el index cuando posiciono el puntero sobre los links (color), VER)*/
 a:link {
   color: #403D3D;
@@ -220,314 +833,6 @@ header nav a {
   padding: 1.2em;
 }
 
-/*@MediaQuery LANDING PAGE - MOBILE FIRST*/
-@media (min-width: 360px) and (max-width: 767px) {
-  .body-landing {
-    overflow-x: hidden;
-    background-image: url("../assets/img/FondoHormigon.jpg");
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-  }
-  .body-landing header {
-    height: 3em;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #BFB9B8;
-    align-items: center;
-    width: 100;
-  }
-  .body-landing header a img {
-    width: 2em;
-    margin: 2em;
-  }
-  .body-landing header nav ul li {
-    list-style-type: none;
-    margin: 0.1em;
-  }
-  .body-landing header nav ul li a {
-    flex-direction: row;
-    text-decoration: none;
-    font-family: "greback grotesque";
-    font-size: 0.68em;
-  }
-  .body-landing .main-landing {
-    display: flex;
-    flex-direction: column;
-  }
-  .body-landing .main-landing .box01 {
-    max-width: 100vw;
-    max-height: 100%;
-  }
-  .body-landing .main-landing .box01 h2 {
-    font-size: 1.7em;
-    font-family: "greback grotesque";
-    text-align: center;
-  }
-  .body-landing .main-landing .box01 p {
-    font-size: 1.2em;
-    font-family: "greback grotesque";
-    text-align: justify;
-    padding: 1.2em;
-  }
-  .body-landing .main-landing .box02-img {
-    align-items: center;
-  }
-  .body-landing .main-landing .box02-img img {
-    width: 90%;
-    height: auto;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .body-landing .main-landing .box03 {
-    font-family: "greback grotesque";
-    max-width: 100vw;
-    max-height: 100%;
-  }
-  .body-landing .main-landing .box03 ul {
-    line-height: 0.005em;
-    padding: 0;
-  }
-  .body-landing .main-landing .box03 h2 {
-    font-size: 1.7em;
-    font-family: "greback grotesque";
-    text-align: center;
-  }
-  .body-landing .main-landing .box03 li {
-    font-size: 1.2em;
-    list-style-type: none;
-    font-family: "greback grotesque";
-    text-align: center;
-  }
-  .body-landing .main-landing .box04-img {
-    align-items: center;
-  }
-  .body-landing .main-landing .box04-img img {
-    width: 85%;
-    height: auto;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .body-landing .main-landing .box05 {
-    max-width: 100vw;
-    max-height: 100%;
-  }
-  .body-landing .main-landing .box05 h2 {
-    font-size: 1.7em;
-    font-family: "greback grotesque";
-    text-align: center;
-  }
-  .body-landing .main-landing .box05 p {
-    font-size: 1.2em;
-    font-family: "greback grotesque";
-    text-align: justify;
-    padding: 1.2em;
-  }
-  .body-landing .main-landing .box06-img {
-    align-items: center;
-  }
-  .body-landing .main-landing .box06-img img {
-    width: 85%;
-    height: auto;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .body-landing .main-landing .box07 {
-    grid-column: 1/2;
-    max-width: 100vw;
-    max-height: 100%;
-  }
-  .body-landing .main-landing .box07 h2 {
-    font-size: 1.7em;
-    font-family: "greback grotesque";
-    text-align: center;
-  }
-  .body-landing .main-landing .box07 p {
-    font-size: 1.2em;
-    font-family: "greback grotesque";
-    text-align: justify;
-    padding: 1.2em;
-  }
-  .body-landing .container-social {
-    justify-content: center;
-    bottom: 0;
-    margin-top: auto;
-    background-color: #BFB9B8;
-  }
-  .body-landing .container-social div {
-    padding: 0.4em;
-    margin: 0;
-    text-align: center;
-  }
-  .body-landing .container-social div a {
-    text-decoration: none;
-  }
-  .body-landing .container-social div #copyright p {
-    font-family: "greback grotesque";
-    text-align: center;
-    font-size: 1em;
-    justify-content: center;
-  }
-}
-/*@MediaQuery LANDING PAGE - DESKTOP*/
-@media (min-width: 1200px) and (max-width: 1680px) {
-  .body-landing {
-    overflow-x: hidden;
-    background-image: url("../assets/img/FondoHormigon.jpg");
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-  }
-  .body-landing header {
-    height: 5em;
-    background-color: #BFB9B8;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .body-landing header a img {
-    width: 4em;
-    padding-left: 0%;
-    margin-left: 0%;
-  }
-  .body-landing header nav ul li {
-    list-style-type: none;
-    margin: 0.1em;
-  }
-  .body-landing header nav ul li a {
-    flex-direction: row;
-    justify-content: space-around;
-    text-decoration: none;
-    font-family: "greback grotesque";
-    font-size: 1.2em;
-    padding: 0.5em;
-  }
-  .body-landing .main-landing {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 30% 30% 40%;
-    grid-template-rows: 30% 30% 40%;
-    grid-template-areas: "uno . img01" "tres img02 cinco" "img03 . siete";
-  }
-  .body-landing .main-landing .box01 {
-    grid-area: uno;
-    grid-column: 1/2;
-  }
-  .body-landing .main-landing .box01 h2 {
-    font-size: 2em;
-    font-family: "greback grotesque";
-    text-align: center;
-  }
-  .body-landing .main-landing .box01 p {
-    font-size: 1.6em;
-    font-family: "greback grotesque";
-    text-align: left;
-    padding: 1.2em;
-  }
-  .body-landing .main-landing .box02-img {
-    grid-area: img01;
-    grid-column: 2/4;
-    justify-content: center;
-    align-items: center;
-  }
-  .body-landing .main-landing .box02-img img {
-    height: 80%;
-    width: 95%;
-    border-radius: 5em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .body-landing .main-landing .box03 {
-    grid-area: tres;
-    font-family: "greback grotesque";
-    grid-column: 1/2;
-  }
-  .body-landing .main-landing .box03 ul li {
-    font-size: 1.6em;
-    line-height: 2em;
-    list-style-type: none;
-    font-family: "greback grotesque";
-    text-align: left;
-    padding: 0.5em;
-  }
-  .body-landing .main-landing .box03 h2 {
-    font-size: 2em;
-    font-family: "greback grotesque";
-    text-align: center;
-  }
-  .body-landing .main-landing .box04-img {
-    grid-area: img02;
-    grid-column: 2/3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .body-landing .main-landing .box04-img .img-b04 {
-    height: 60%;
-    border-radius: 5em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .body-landing .main-landing .box05 {
-    grid-area: cinco;
-  }
-  .body-landing .main-landing .box05 h2 {
-    font-size: 2em;
-    font-family: "greback grotesque";
-    text-align: center;
-  }
-  .body-landing .main-landing .box05 p {
-    font-size: 1.6em;
-    font-family: "greback grotesque";
-    text-align: right;
-    padding: 1.2em;
-  }
-  .body-landing .main-landing .box06-img {
-    grid-area: img03;
-    grid-column: 1/3;
-    grid-row: 3/4;
-    justify-content: center;
-    align-items: center;
-  }
-  .body-landing .main-landing .box06-img img {
-    height: 90%;
-    border-radius: 5em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .body-landing .main-landing .box07 {
-    grid-area: siete;
-    grid-column: 3/4;
-  }
-  .body-landing .main-landing .box07 h2 {
-    font-size: 2em;
-    font-family: "greback grotesque";
-    text-align: center;
-  }
-  .body-landing .main-landing .box07 p {
-    font-size: 1.6em;
-    font-family: "greback grotesque";
-    text-align: justify;
-    padding: 1.2em;
-  }
-  .body-landing .container-social {
-    justify-content: center;
-    bottom: 0;
-    margin-top: auto;
-    background-color: #BFB9B8;
-  }
-  .body-landing .container-social div {
-    padding: 0.4em;
-    margin: 0;
-    text-align: center;
-  }
-  .body-landing .container-social div a {
-    text-decoration: none;
-  }
-  .body-landing .container-social div #copyright p {
-    font-family: "greback grotesque";
-    text-align: center;
-    font-size: 1.2em;
-    justify-content: center;
-  }
-}
 /*PAGES*/
 /*Proyects----------------------------------------------*/
 .flex-container-body-proy {
@@ -1007,309 +1312,4 @@ header nav a {
   height: 90%;
   border-radius: 5em;
   box-shadow: 10px 5px 5px #403D3D;
-}
-
-/* @MediaQuerys  Que HACEMOS MOBILE FIRST*/
-@media (min-width: 360px) and (max-width: 767px) {
-  .flex-container-body-que {
-    overflow-x: hidden;
-    background-image: url("../assets/img/FondoHormigon.jpg");
-    background: cover;
-    margin: 0%;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  .flex-container-body-que header {
-    height: 3em;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #BFB9B8;
-    align-items: center;
-    width: 100%;
-  }
-  .flex-container-body-que header a img {
-    width: 2em;
-    margin: 2em;
-  }
-  .flex-container-body-que header nav ul li {
-    list-style-type: none;
-    margin: 0.1em;
-  }
-  .flex-container-body-que header nav ul li a {
-    flex-direction: row;
-    text-decoration: none;
-    font-family: "greback grotesque";
-    font-size: 0.68em;
-  }
-  .flex-container-body-que .main-queHacemos-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .flex-container-body-que .main-queHacemos-container section h1 {
-    font-size: 1em;
-    font-family: "greback grotesque";
-    text-align: center;
-    padding: 0.5em;
-    color: #F2F2F2;
-    padding: 0.5em;
-    margin: 0.5em;
-    background-color: #403D3D;
-    border-radius: 0.3em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container {
-    height: 80%;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container h3 {
-    background-color: #403D3D;
-    font-family: "greback grotesque";
-    margin: 0;
-    padding: 0.5em;
-    font-size: 0.8em;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container p {
-    font-family: "greback grotesque";
-    list-style-type: none;
-    padding: 0.5em;
-    margin: 0%;
-    font-size: 0.75em;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container .card-what01 {
-    background-color: #F2F2F2;
-    width: 85%;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container .card-what02 {
-    background-color: #F2F2F2;
-    width: 85%;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container .card-what03 {
-    background-color: #F2F2F2;
-    width: 85%;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container .card-what04 {
-    background-color: #F2F2F2;
-    width: 85%;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container .card-what05 {
-    background-color: #F2F2F2;
-    width: 85%;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-img-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 1em;
-    height: 90%;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-img-container .hacemos-img {
-    width: 90%;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px  #403D3D;
-  }
-  .flex-container-body-que .container-social {
-    justify-content: center;
-    bottom: 0;
-    margin-top: auto;
-  }
-  .flex-container-body-que .container-social div {
-    padding: 0.4em;
-    margin: 0;
-    text-align: center;
-    height: 65%;
-    background-color: #BFB9B8;
-  }
-  .flex-container-body-que .container-social div a {
-    text-decoration: none;
-  }
-  .flex-container-body-que .container-social div #copyright p {
-    font-family: "greback grotesque";
-    text-align: center;
-    font-size: 0.8em;
-    justify-content: center;
-  }
-}
-/* @MediaQuerys  Que HACEMOS DESKTOP*/
-@media (min-width: 1200px) and (max-width: 1680px) {
-  .flex-container-body-que {
-    overflow-x: hidden;
-    background-image: url("../assets/img/FondoHormigon.jpg");
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-  }
-  .flex-container-body-que header {
-    height: 4em;
-    background-color: #BFB9B8;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .flex-container-body-que header a img {
-    width: 4em;
-    padding-left: 0%;
-    margin-left: 0%;
-  }
-  .flex-container-body-que header nav ul li {
-    list-style-type: none;
-    margin: 0.1em;
-  }
-  .flex-container-body-que header nav ul li a {
-    flex-direction: row;
-    justify-content: space-around;
-    text-decoration: none;
-    font-family: "greback grotesque";
-    font-size: 1.2em;
-    padding: 0.5em;
-  }
-  .flex-container-body-que .main-queHacemos-container {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 10% 90%;
-    grid-template-areas: "que que" "razon img";
-  }
-  .flex-container-body-que .main-queHacemos-container section {
-    grid-area: que;
-    grid-column: 1/3;
-    grid-row: 1/2;
-  }
-  .flex-container-body-que .main-queHacemos-container section h1 {
-    font-size: 2em;
-    font-family: "greback grotesque";
-    text-align: center;
-    padding: 0.5em;
-    color: #F2F2F2;
-    padding: 0.5em;
-    margin: 0.5em;
-    background-color: #403D3D;
-    border-radius: 0.3em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container {
-    grid-area: razon;
-    grid-column: 1/2;
-    grid-row: 2/3;
-    height: 55%;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container h3 {
-    background-color: #403D3D;
-    font-family: "greback grotesque";
-    border-radius: 0.3em;
-    color: #F2F2F2;
-    margin: 0;
-    padding: 0.5em;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container p {
-    font-family: "greback grotesque";
-    list-style-type: none;
-    padding: 0.5em;
-    margin: 0%;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container .card-what01 {
-    background-color: #F2F2F2;
-    width: 92%;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container .card-what02 {
-    background-color: #F2F2F2;
-    width: 92%;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container .card-what03 {
-    background-color: #F2F2F2;
-    width: 92%;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container .card-what04 {
-    background-color: #F2F2F2;
-    width: 92%;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-container .card-what05 {
-    background-color: #F2F2F2;
-    width: 92%;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-img-container {
-    grid-area: img;
-    grid-column: 2/3;
-    grid-row: 2/3;
-    height: 90%;
-    align-items: center;
-  }
-  .flex-container-body-que .main-queHacemos-container .what-img-container img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60%;
-    width: 95%;
-    border-radius: 5em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-que .container-social {
-    justify-content: center;
-    bottom: 0;
-    margin-top: auto;
-    background-color: #BFB9B8;
-  }
-  .flex-container-body-que .container-social div {
-    padding: 0.4em;
-    margin: 0;
-    text-align: center;
-  }
-  .flex-container-body-que .container-social div a {
-    text-decoration: none;
-  }
-  .flex-container-body-que .container-social div #copyright p {
-    font-family: "greback grotesque";
-    text-align: center;
-    font-size: 1.2em;
-    justify-content: center;
-  }
 }/*# sourceMappingURL=main.css.map */
