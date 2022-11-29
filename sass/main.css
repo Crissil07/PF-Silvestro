@@ -10,7 +10,7 @@
 @media only screen and (min-width: 360px) and (max-width: 767px) {
   .body-landing {
     overflow-x: hidden;
-    background-image: url("../assets/img/FondoHormigon.jpg");
+    background-image: url("../assets/img/FondoHormigon02.jpg");
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -159,7 +159,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .body-landing {
     overflow-x: hidden;
-    background-image: url("../assets/img/FondoHormigon.jpg");
+    background-image: url("../assets/img/FondoHormigon02.jpg");
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -318,7 +318,7 @@
 @media only screen and (min-width: 1200px) and (max-width: 1680px) {
   .body-landing {
     overflow-x: hidden;
-    background-image: url("../assets/img/FondoHormigon.jpg");
+    background-image: url("../assets/img/FondoHormigon02.jpg");
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -478,7 +478,7 @@
 @media only screen and (min-width: 360px) and (max-width: 767px) {
   .flex-container-body-que {
     overflow-x: hidden;
-    background-image: url("../assets/img/FondoHormigon.jpg");
+    background-image: url("../assets/img/FondoHormigon02.jpg");
     background: cover;
     margin: 0%;
     display: flex;
@@ -623,7 +623,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .flex-container-body-que {
     overflow-x: hidden;
-    background-image: url("../assets/img/FondoHormigon.jpg");
+    background-image: url("../assets/img/FondoHormigon02.jpg");
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -750,7 +750,7 @@
 @media only screen and (min-width: 1200px) and (max-width: 1680px) {
   .flex-container-body-que {
     overflow-x: hidden;
-    background-image: url("../assets/img/FondoHormigon.jpg");
+    background-image: url("../assets/img/FondoHormigon02.jpg");
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -907,6 +907,76 @@
 }
 /*------------------------------------------------------*/
 /* @MediaQuerys  home MOBILE FIRST*/
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .flex-container-body {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon02.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container-body header {
+    padding-top: 2%;
+    height: 3em;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB9B8;
+    align-items: center;
+    width: 100;
+  }
+  .flex-container-body header a img {
+    width: 2em;
+    margin: 2em;
+  }
+  .flex-container-body header nav ul li {
+    list-style-type: none;
+    margin: 0.1em;
+  }
+  .flex-container-body header nav ul li a {
+    flex-direction: row;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 0.68em;
+  }
+  .flex-container-body main {
+    padding: 5%;
+  }
+  .flex-container-body main .frase p {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "greback grotesque";
+    padding-top: 5%;
+  }
+  .flex-container-body main .frase h3 {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "greback grotesque";
+    padding-top: 5%;
+    padding-right: 5%;
+    text-align: right;
+  }
+  .flex-container-body .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BFB9B8;
+  }
+  .flex-container-body .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+  }
+  .flex-container-body .container-social div a {
+    text-decoration: none;
+  }
+  .flex-container-body .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 1em;
+    justify-content: center;
+  }
+}
 /* colores de links (Funcionan mal en el index cuando posiciono el puntero sobre los links (color), VER)*/
 a:link {
   color: #403D3D;
@@ -973,31 +1043,10 @@ header nav a {
 }
 
 /*--------------------------------------------------------*/
-/*Home Body*/
-.flex-container-body {
-  overflow-x: hidden;
-  background: cover;
-  margin: 0%;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-image: url("../assets/img/FondoHormigon.jpg");
-}
-
-/*Main Carousel*/
-.carousel-container h1 {
-  font-size: 4em;
-}
-.carousel-container p {
-  font-size: 2.5em;
-}
-
-/*Solo body ya que en el main esta el carousel de bootstrap y el resto son etiquetas generales*/
-/*contenedores de header y Footer se repiten en todas las pages*/
 /*Index*/
 .body-landing {
   overflow-x: hidden;
-  background-image: url("../assets/img/FondoHormigon.jpg");
+  background-image: url("../assets/img/FondoHormigon02.jpg");
   background: cover;
   margin: 0%;
   min-height: 100vh;
@@ -1122,10 +1171,49 @@ header nav a {
 }
 
 /*PAGES*/
+/*Home Body*/
+.flex-container-body {
+  overflow-x: hidden;
+  background: cover;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../assets/img/FondoHormigon02.jpg");
+}
+.flex-container-body main {
+  padding: 5%;
+}
+.flex-container-body main .carousel-container h1 {
+  font-family: "greback grotesque";
+  font-size: 4em;
+}
+.flex-container-body main .carousel-container p {
+  font-family: "greback grotesque";
+  font-size: 2em;
+  text-align: justify;
+}
+.flex-container-body main .frase p {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "greback grotesque";
+  padding-top: 5%;
+}
+.flex-container-body main .frase h3 {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: "greback grotesque";
+  padding-top: 5%;
+  padding-right: 5%;
+  text-align: right;
+}
+
+/*Solo body ya que en el main esta el carousel de bootstrap y el resto son etiquetas generales*/
+/*contenedores de header y Footer se repiten en todas las pages*/
 /*Proyects----------------------------------------------*/
 .flex-container-body-proy {
   overflow-x: hidden;
-  background-image: url("../assets/img/FondoHormigon.jpg");
+  background-image: url("../assets/img/FondoHormigon02.jpg");
   background: cover;
   margin: 0%;
   display: flex;
@@ -1167,7 +1255,7 @@ header nav a {
 /* razones para contratar: */
 .flex-container-body-preg {
   overflow-x: hidden;
-  background-image: url("../assets/img/FondoHormigon.jpg");
+  background-image: url("../assets/img/FondoHormigon02.jpg");
   background: cover;
   margin: 0%;
   display: flex;
@@ -1448,7 +1536,7 @@ header nav a {
 /* Equipo */
 .flex-container-body-our {
   overflow-x: hidden;
-  background-image: url("../assets/img/FondoHormigon.jpg");
+  background-image: url("../assets/img/FondoHormigon02.jpg");
   background: cover;
   margin: 0%;
   display: flex;
@@ -1489,7 +1577,7 @@ header nav a {
 /* que hacemos Grid + Flex*/
 .flex-container-body-que {
   overflow-x: hidden;
-  background-image: url("../assets/img/FondoHormigon.jpg");
+  background-image: url("../assets/img/FondoHormigon02.jpg");
   background: cover;
   margin: 0%;
   display: flex;

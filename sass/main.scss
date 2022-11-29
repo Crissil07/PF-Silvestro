@@ -70,32 +70,11 @@ header{
     }
 }
 /*--------------------------------------------------------*/
-/*Home Body*/
-.flex-container-body{
-    overflow-x: hidden;
-    background: cover;
-    margin: 0%;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-image:url("../assets/img/FondoHormigon.jpg");
-}
-/*Main Carousel*/
-.carousel-container{
-    h1{
-        font-size: 4em;
-    }
-    p{
-        font-size: 2.5em;
-    }
-}
-/*Solo body ya que en el main esta el carousel de bootstrap y el resto son etiquetas generales*/
-/*contenedores de header y Footer se repiten en todas las pages*/
 
 /*Index*/
 .body-landing{
     overflow-x: hidden;
-    background-image:url("../assets/img/FondoHormigon.jpg");
+    background-image:url("../assets/img/FondoHormigon02.jpg");
     background: cover;
     margin: 0%;
     min-height: 100vh;
@@ -223,11 +202,54 @@ header{
 }
 
 /*PAGES*/
+/*Home Body*/
+.flex-container-body{
+    overflow-x: hidden;
+    background: cover;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image:url("../assets/img/FondoHormigon02.jpg");
+    main{
+        padding:5%;
+        .carousel-container{
+            h1{
+                font-family: "greback grotesque";
+                font-size: 4em;
+            }
+            p{
+                font-family: "greback grotesque";
+                font-size: 2em;
+                text-align:justify;
+            }
+        }
+        .frase{
+            p{
+                text-align: center;
+                font-size: 2.5em;
+                font-family: "greback grotesque";
+                padding-top: 5%;
+            }
+            h3{
+                font-size: 3em;
+                font-weight: bold;
+                font-family: "greback grotesque";
+                padding-top: 5%;
+                padding-right: 5%;
+                text-align: right;
+            }
+        }
+    }
+    
+}
+/*Solo body ya que en el main esta el carousel de bootstrap y el resto son etiquetas generales*/
+/*contenedores de header y Footer se repiten en todas las pages*/
 
 /*Proyects----------------------------------------------*/
 .flex-container-body-proy{
     overflow-x: hidden;
-    background-image:url("../assets/img/FondoHormigon.jpg");
+    background-image:url("../assets/img/FondoHormigon02.jpg");
     background: cover;
     margin: 0%;
     display: flex;
@@ -268,7 +290,7 @@ header{
 /* razones para contratar: */
 .flex-container-body-preg{
     overflow-x: hidden;
-    background-image:url("../assets/img/FondoHormigon.jpg");
+    background-image:url("../assets/img/FondoHormigon02.jpg");
     background: cover;
     margin: 0%;
     display: flex;
@@ -562,7 +584,7 @@ header{
 /* Equipo */
 .flex-container-body-our{
     overflow-x: hidden;
-    background-image:url("../assets/img/FondoHormigon.jpg");
+    background-image:url("../assets/img/FondoHormigon02.jpg");
     background: cover;
     margin: 0%;
     display: flex;
@@ -606,7 +628,7 @@ header{
 /* que hacemos Grid + Flex*/ 
 .flex-container-body-que{
     overflow-x: hidden;
-    background-image:url("../assets/img/FondoHormigon.jpg");
+    background-image:url("../assets/img/FondoHormigon02.jpg");
     background: cover;
     margin: 0%;
     display: flex;

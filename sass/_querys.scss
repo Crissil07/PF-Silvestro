@@ -2,7 +2,7 @@
 @media only screen and (min-width: 360px) and (max-width: 767px){
     .body-landing{
         overflow-x: hidden;
-        background-image:url("../assets/img/FondoHormigon.jpg");
+        background-image:url("../assets/img/FondoHormigon02.jpg");
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -158,7 +158,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1199px){
     .body-landing{
         overflow-x: hidden;
-        background-image:url("../assets/img/FondoHormigon.jpg");
+        background-image:url("../assets/img/FondoHormigon02.jpg");
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -326,7 +326,7 @@
 @media only screen and  (min-width: 1200px) and (max-width: 1680px){
     .body-landing{
         overflow-x: hidden;
-        background-image:url("../assets/img/FondoHormigon.jpg");
+        background-image:url("../assets/img/FondoHormigon02.jpg");
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -496,7 +496,7 @@
 @media only screen and (min-width: 360px) and (max-width: 767px){
     .flex-container-body-que{
         overflow-x: hidden;
-        background-image:url("../assets/img/FondoHormigon.jpg");
+        background-image:url("../assets/img/FondoHormigon02.jpg");
         background: cover;
         margin: 0%;
         display: flex;
@@ -649,7 +649,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1199px){
     .flex-container-body-que{
         overflow-x: hidden;
-        background-image:url("../assets/img/FondoHormigon.jpg");
+        background-image:url("../assets/img/FondoHormigon02.jpg");
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -782,7 +782,7 @@
 @media only screen and (min-width: 1200px) and (max-width: 1680px){
     .flex-container-body-que{
         overflow-x: hidden;
-        background-image:url("../assets/img/FondoHormigon.jpg");
+        background-image:url("../assets/img/FondoHormigon02.jpg");
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -946,5 +946,78 @@
 /*------------------------------------------------------*/
 /* @MediaQuerys  home MOBILE FIRST*/
 @media only screen and (min-width: 360px) and (max-width: 767px){
-    
+    .flex-container-body{
+        overflow-x: hidden;
+        background-image:url("../assets/img/FondoHormigon02.jpg");
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        header{
+            padding-top: 2%;
+            height: 3em;
+            flex-direction: row;
+            justify-content:space-around;
+            background-color: #BFB9B8;
+            align-items: center;
+            width: 100;
+            a img{
+                width: 2em;
+                margin: 2em;
+            }
+            nav{
+                ul{
+                    li{
+                        list-style-type: none;
+                        margin: 0.1em;
+                        a{
+                            flex-direction: row;
+                            text-decoration: none;
+                            font-family: "greback grotesque";
+                            font-size: 0.68em;
+                        }
+                    }
+                }
+            }
+        }
+        main{
+            padding:5%;
+            .frase{
+                p{
+                    text-align: center;
+                    font-size: 2.5em;
+                    font-family: "greback grotesque";
+                    padding-top: 5%;
+                }
+                h3{
+                    font-size: 3em;
+                    font-weight: bold;
+                    font-family: "greback grotesque";
+                    padding-top: 5%;
+                    padding-right: 5%;
+                    text-align: right;
+                }
+            }
+        }
+        .container-social{
+            justify-content: center;
+            bottom:0;
+            margin-top: auto;
+            background-color: #BFB9B8;
+            div{
+                padding: 0.4em;
+                margin: 0;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                }
+                #copyright p{
+                    font-family: "greback grotesque";
+                    text-align: center;
+                    font-size: 1em;
+                    justify-content: center;
+                }
+            }
+        }
+    }
 }
