@@ -979,6 +979,7 @@
     justify-content: center;
   }
 }
+/* @MediaQuerys  home TABLET*/
 /* colores de links (Funcionan mal en el index cuando posiciono el puntero sobre los links (color), VER)*/
 a:link {
   color: #403D3D;
