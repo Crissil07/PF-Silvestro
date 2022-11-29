@@ -152,9 +152,7 @@
     }
     
 }
-
 /*@MediaQuery LANDING PAGE - TABLET*/
-
 @media only screen and (min-width: 768px) and (max-width: 1199px){
     .body-landing{
         overflow-x: hidden;
@@ -321,7 +319,6 @@
         }
     }
 }
-
 /*@MediaQuery LANDING PAGE - DESKTOP*/
 @media only screen and  (min-width: 1200px) and (max-width: 1680px){
     .body-landing{
@@ -1023,5 +1020,130 @@
 }
 /* @MediaQuerys  home TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1199px){
-
+    .header-home{
+        padding: 4%;
+        height: 6em;
+        flex-direction: row;
+        justify-content:space-around;
+        background-color: #BFB9B8;
+        align-items: center;
+        width: 100;
+        a img{
+            width: 1.5em;
+            margin: 1.5em;
+        }
+        nav{
+            ul{
+                li{
+                    list-style-type: none;
+                    margin: 0.2em;
+                    a{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        text-decoration: none;
+                        font-family: "greback grotesque";
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        padding:5%;
+        .carousel-container{
+            .carousel-caption{
+                .carousel-h1{
+                    font-family: "greback grotesque";
+                    font-size: 2em;
+                }
+                .p-index-main{
+                    font-family: "greback grotesque";
+                    font-size: 1.2em;
+                    text-align:justify;
+                }
+            }
+        }
+    }
+    .container-social{
+        justify-content: center;
+        bottom:0;
+        margin-top: auto;
+        background-color: #BFB9B8;
+        div{
+            padding: 0.4em;
+            margin: 0;
+            text-align: center;
+            a{
+                text-decoration: none;
+            }
+            #copyright p{
+                font-family: "greback grotesque";
+                text-align: center;
+                font-size: 1.2em;
+                justify-content: center;
+            }
+        }
+    }
+}
+/* @MediaQuerys  home DESKTOP*/
+@media only screen and (min-width: 1200px) and (max-width: 1680px){
+    .flex-container-body{
+        overflow-x: hidden;
+        background-size: cover;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-image:url("../assets/img/FondoHormigon02.jpg");
+        .header-home{
+            padding: 4%;
+            height: 4em;
+            flex-direction: row;
+            justify-content:space-around;
+            background-color: #BFB9B8;
+            align-items: center;
+            width: 100;
+            a img{
+                width: 5em;
+                margin: 5em;
+            }
+            nav{
+                ul{
+                    li{
+                        list-style-type: none;
+                        margin: 1em;
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            text-decoration: none;
+                            font-family: "greback grotesque";
+                            font-size: 1.4em;
+                        }
+                    }
+                }
+            }
+        }
+        main{
+            padding:5%;
+            .carousel-container{
+                .carousel-caption{
+                    .carousel-h1{
+                        font-family: "greback grotesque";
+                        font-size: 3.2em;
+                    }
+                    .p-index-main{
+                        font-family: "greback grotesque";
+                        font-size: 1.8em;
+                        text-align:justify;
+                    }
+                }
+            }
+        }
+    }
+}
+/* @MediaQuerys  Proyects MOBILE FIRST*/
+@media only screen and (min-width: 360px) and (max-width: 767px){
+    
 }
