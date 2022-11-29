@@ -950,7 +950,7 @@
         overflow-x: hidden;
         background-image:url("../assets/img/FondoHormigon02.jpg");
         background-size: cover;
-        min-height: 100vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         header{
@@ -983,14 +983,14 @@
         main{
             padding:5%;
             .frase{
-                p{
+                padding:5%;
+                .par-frase{
                     text-align: center;
-                    font-size: 2.5em;
+                    font-size: 1.5em;
                     font-family: "greback grotesque";
-                    padding-top: 5%;
                 }
-                h3{
-                    font-size: 3em;
+                .h3-frase{
+                    font-size: 1.2em;
                     font-weight: bold;
                     font-family: "greback grotesque";
                     padding-top: 5%;

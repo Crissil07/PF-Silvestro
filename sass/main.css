@@ -912,7 +912,7 @@
     overflow-x: hidden;
     background-image: url("../assets/img/FondoHormigon02.jpg");
     background-size: cover;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
@@ -942,14 +942,16 @@
   .flex-container-body main {
     padding: 5%;
   }
-  .flex-container-body main .frase p {
-    text-align: center;
-    font-size: 2.5em;
-    font-family: "greback grotesque";
-    padding-top: 5%;
+  .flex-container-body main .frase {
+    padding: 5%;
   }
-  .flex-container-body main .frase h3 {
-    font-size: 3em;
+  .flex-container-body main .frase .par-frase {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "greback grotesque";
+  }
+  .flex-container-body main .frase .h3-frase {
+    font-size: 1.2em;
     font-weight: bold;
     font-family: "greback grotesque";
     padding-top: 5%;
@@ -1174,11 +1176,11 @@ header nav a {
 /*Home Body*/
 .flex-container-body {
   overflow-x: hidden;
-  background: cover;
+  background-size: cover;
   margin: 0%;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   background-image: url("../assets/img/FondoHormigon02.jpg");
 }
 .flex-container-body main {
@@ -1192,6 +1194,9 @@ header nav a {
   font-family: "greback grotesque";
   font-size: 2em;
   text-align: justify;
+}
+.flex-container-body main .frase {
+  padding-bottom: 5%;
 }
 .flex-container-body main .frase p {
   text-align: center;

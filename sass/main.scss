@@ -205,11 +205,11 @@ header{
 /*Home Body*/
 .flex-container-body{
     overflow-x: hidden;
-    background: cover;
+    background-size: cover;
     margin: 0%;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
     background-image:url("../assets/img/FondoHormigon02.jpg");
     main{
         padding:5%;
@@ -225,6 +225,7 @@ header{
             }
         }
         .frase{
+            padding-bottom: 5%;
             p{
                 text-align: center;
                 font-size: 2.5em;
