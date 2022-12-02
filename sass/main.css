@@ -1088,7 +1088,178 @@
     text-align: justify;
   }
 }
+/*------------------------------------------------------*/
 /* @MediaQuerys  Proyects MOBILE FIRST*/
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .flex-container-body-proy {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon02.jpg");
+    background: cover;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .flex-container-body-proy header {
+    padding-top: 2%;
+    height: 3em;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB9B8;
+    align-items: center;
+    width: 100;
+  }
+  .flex-container-body-proy header a img {
+    width: 2em;
+    margin: 2em;
+  }
+  .flex-container-body-proy header nav ul li {
+    list-style-type: none;
+    margin: 0.1em;
+  }
+  .flex-container-body-proy header nav ul li a {
+    flex-direction: row;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 0.68em;
+  }
+  .flex-container-body-proy main section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .flex-container-body-proy main section .card-o {
+    border: solid 0.3em;
+    padding: 2em;
+    margin: 0.5em 0.7em 0.5em 0.7em;
+    display: inline-block;
+    width: 72%;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    border-color: #403D3D;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-proy main section .card-o img {
+    width: 100%;
+  }
+  .flex-container-body-proy main section .card-o h2 {
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .flex-container-body-proy main section .card-o p {
+    font-family: "greback grotesque";
+    font-size: 1.3em;
+  }
+  .flex-container-body-proy .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BFB9B8;
+  }
+  .flex-container-body-proy .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+  }
+  .flex-container-body-proy .container-social div a {
+    text-decoration: none;
+  }
+  .flex-container-body-proy .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 1em;
+    justify-content: center;
+  }
+}
+/* @MediaQuerys  home TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .flex-container-body-proy {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon02.jpg");
+    background: cover;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .flex-container-body-proy header {
+    padding: 4%;
+    height: 1em;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB9B8;
+    align-items: center;
+    width: 100;
+  }
+  .flex-container-body-proy header a img {
+    width: 4em;
+    margin: 4em;
+  }
+  .flex-container-body-proy header nav ul li {
+    list-style-type: none;
+    margin: 0.2em;
+  }
+  .flex-container-body-proy header nav ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 1.2em;
+  }
+  .flex-container-body-proy main section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .flex-container-body-proy main section .card-o {
+    border: solid 0.3em;
+    padding: 2em;
+    margin: 0.5em 0.7em 0.5em 0.7em;
+    display: inline-block;
+    width: 86%;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    border-color: #403D3D;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-proy main section .card-o img {
+    width: 100%;
+  }
+  .flex-container-body-proy main section .card-o h2 {
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .flex-container-body-proy main section .card-o p {
+    font-family: "greback grotesque";
+    font-size: 1.3em;
+  }
+  .flex-container-body-proy .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BFB9B8;
+  }
+  .flex-container-body-proy .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+  }
+  .flex-container-body-proy .container-social div a {
+    text-decoration: none;
+  }
+  .flex-container-body-proy .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 1.4em;
+    justify-content: center;
+  }
+}
+/* @MediaQuerys  home DESKTOP*/
 /* colores de links (Funcionan mal en el index cuando posiciono el puntero sobre los links (color), VER)*/
 a:link {
   color: #403D3D;
