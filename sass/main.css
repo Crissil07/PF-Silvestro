@@ -6,16 +6,19 @@
   font-family: "greback grotesque";
   src: url("../assets/fonts/Greback Grotesque.otf");
 }
-/*@MediaQuery LANDING PAGE - MOBILE FIRST*/
+/*@MediaQuery landing page - MOBILE FIRST*/
 @media only screen and (min-width: 360px) and (max-width: 767px) {
   .body-landing {
     overflow-x: hidden;
     background-image: url("../assets/img/FondoHormigon02.jpg");
-    width: 100vw;
+    background: cover;
+    margin: 0%;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
   }
   .body-landing header {
+    padding-top: 2%;
     height: 3em;
     flex-direction: row;
     justify-content: space-around;
@@ -26,6 +29,9 @@
   .body-landing header a img {
     width: 2em;
     margin: 2em;
+  }
+  .body-landing header nav ul {
+    padding: 1%;
   }
   .body-landing header nav ul li {
     list-style-type: none;
@@ -155,40 +161,41 @@
     justify-content: center;
   }
 }
-/*@MediaQuery LANDING PAGE - TABLET*/
+/*@MediaQuery landing page - TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .body-landing {
     overflow-x: hidden;
     background-image: url("../assets/img/FondoHormigon02.jpg");
-    width: 100vw;
+    background: cover;
+    margin: 0%;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
   }
   .body-landing header {
-    height: 4em;
-    background-color: #BFB9B8;
-    display: flex;
+    padding: 4%;
+    height: 1em;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #BFB9B8;
     align-items: center;
-    padding: 3%;
+    width: 101%;
   }
   .body-landing header a img {
     width: 4em;
-    padding-left: 10%;
-    margin-left: 5%;
+    margin: 4em;
   }
   .body-landing header nav ul li {
     list-style-type: none;
-    margin: 0.1em;
+    margin: 0.2em;
   }
   .body-landing header nav ul li a {
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     text-decoration: none;
     font-family: "greback grotesque";
     font-size: 1.2em;
-    padding: 0.5em;
   }
   .body-landing .main-landing {
     display: grid;
@@ -314,7 +321,7 @@
     padding: 1.2em;
   }
 }
-/*@MediaQuery LANDING PAGE - DESKTOP*/
+/*@MediaQuery landing page - DESKTOP*/
 @media only screen and (min-width: 1200px) and (max-width: 1680px) {
   .body-landing {
     overflow-x: hidden;
@@ -474,7 +481,7 @@
   }
 }
 /*------------------------------------------------------*/
-/* @MediaQuerys  Que HACEMOS MOBILE FIRST*/
+/* @MediaQuerys what we do MOBILE FIRST*/
 @media only screen and (min-width: 360px) and (max-width: 767px) {
   .flex-container-body-que {
     overflow-x: hidden;
@@ -486,16 +493,20 @@
     min-height: 100vh;
   }
   .flex-container-body-que header {
+    padding-top: 2%;
     height: 3em;
     flex-direction: row;
     justify-content: space-around;
     background-color: #BFB9B8;
     align-items: center;
-    width: 100%;
+    width: 100;
   }
   .flex-container-body-que header a img {
     width: 2em;
     margin: 2em;
+  }
+  .flex-container-body-que header nav ul {
+    padding: 1%;
   }
   .flex-container-body-que header nav ul li {
     list-style-type: none;
@@ -619,7 +630,7 @@
     justify-content: center;
   }
 }
-/* @MediaQuerys  Que HACEMOS TABLET*/
+/* @MediaQuerys what we do TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .flex-container-body-que {
     overflow-x: hidden;
@@ -746,7 +757,7 @@
     display: none;
   }
 }
-/* @MediaQuerys  Que HACEMOS DESKTOP*/
+/* @MediaQuerys what we do DESKTOP*/
 @media only screen and (min-width: 1200px) and (max-width: 1680px) {
   .flex-container-body-que {
     overflow-x: hidden;
@@ -906,15 +917,16 @@
   }
 }
 /*------------------------------------------------------*/
-/* @MediaQuerys  home MOBILE FIRST*/
+/* @MediaQuerys home MOBILE FIRST*/
 @media only screen and (min-width: 360px) and (max-width: 767px) {
   .flex-container-body {
     overflow-x: hidden;
     background-image: url("../assets/img/FondoHormigon02.jpg");
-    background-size: cover;
-    height: 100vh;
+    background: cover;
+    margin: 0%;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
   }
   .flex-container-body header {
     padding-top: 2%;
@@ -928,6 +940,9 @@
   .flex-container-body header a img {
     width: 2em;
     margin: 2em;
+  }
+  .flex-container-body header nav ul {
+    padding: 1%;
   }
   .flex-container-body header nav ul li {
     list-style-type: none;
@@ -979,7 +994,7 @@
     justify-content: center;
   }
 }
-/* @MediaQuerys  home TABLET*/
+/* @MediaQuerys home TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .header-home {
     padding: 4%;
@@ -1039,7 +1054,7 @@
     justify-content: center;
   }
 }
-/* @MediaQuerys  home DESKTOP*/
+/* @MediaQuerys home DESKTOP*/
 @media only screen and (min-width: 1200px) and (max-width: 1680px) {
   .flex-container-body {
     overflow-x: hidden;
@@ -1089,7 +1104,7 @@
   }
 }
 /*------------------------------------------------------*/
-/* @MediaQuerys  Proyects MOBILE FIRST*/
+/* @MediaQuerys Proyects MOBILE FIRST*/
 @media only screen and (min-width: 360px) and (max-width: 767px) {
   .flex-container-body-proy {
     overflow-x: hidden;
@@ -1112,6 +1127,9 @@
   .flex-container-body-proy header a img {
     width: 2em;
     margin: 2em;
+  }
+  .flex-container-body-proy header nav ul {
+    padding: 1%;
   }
   .flex-container-body-proy header nav ul li {
     list-style-type: none;
@@ -1173,7 +1191,7 @@
     justify-content: center;
   }
 }
-/* @MediaQuerys  home TABLET*/
+/* @MediaQuerys Proyects TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .flex-container-body-proy {
     overflow-x: hidden;
@@ -1259,7 +1277,497 @@
     justify-content: center;
   }
 }
-/* @MediaQuerys  home DESKTOP*/
+/* @MediaQuerys Proyects DESKTOP*/
+@media only screen and (min-width: 1200px) and (max-width: 1680px) {
+  .flex-container-body-proy {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon02.jpg");
+    background: cover;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .flex-container-body-proy header {
+    padding: 2%;
+    height: 0.5em;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB9B8;
+    align-items: center;
+    width: 100;
+  }
+  .flex-container-body-proy header a img {
+    width: 4em;
+    margin: 4em;
+  }
+  .flex-container-body-proy header nav ul li {
+    list-style-type: none;
+    margin: 0.2em;
+  }
+  .flex-container-body-proy header nav ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 1.4em;
+  }
+  .flex-container-body-proy main section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .flex-container-body-proy main section .card-o {
+    border: solid 0.3em;
+    padding: 2em;
+    margin: 0.5em 0.7em 0.5em 0.7em;
+    display: inline-block;
+    width: 16%;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    border-color: #403D3D;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-proy main section .card-o img {
+    width: 100%;
+  }
+  .flex-container-body-proy main section .card-o h2 {
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .flex-container-body-proy main section .card-o p {
+    font-family: "greback grotesque";
+    font-size: 1.3em;
+  }
+  .flex-container-body-proy .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BFB9B8;
+  }
+  .flex-container-body-proy .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+  }
+  .flex-container-body-proy .container-social div a {
+    text-decoration: none;
+  }
+  .flex-container-body-proy .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 1.4em;
+    justify-content: center;
+  }
+}
+/*------------------------------------------------------*/
+/* @MediaQuerys our team MOBILE FIRST*/
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .flex-container-body-our {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon02.jpg");
+    background: cover;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .flex-container-body-our header {
+    padding-top: 2%;
+    height: 3em;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB9B8;
+    align-items: center;
+    width: 100;
+  }
+  .flex-container-body-our header a img {
+    width: 2em;
+    margin: 2em;
+  }
+  .flex-container-body-our header nav ul {
+    padding: 1%;
+  }
+  .flex-container-body-our header nav ul li {
+    list-style-type: none;
+    margin: 0.1em;
+  }
+  .flex-container-body-our header nav ul li a {
+    flex-direction: row;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 0.68em;
+  }
+  .flex-container-body-our main .container-flex-team {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .flex-container-body-our main .container-flex-team .card-e {
+    border: solid 0.3em;
+    padding: 2em;
+    margin: 0.5em 0.7em 0.5em 0.7em;
+    display: inline-block;
+    width: 72%;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    border-color: #403D3D;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-our main .container-flex-team .card-e a img {
+    width: 100%;
+  }
+  .flex-container-body-our main .container-flex-team .card-e h2 {
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .flex-container-body-our main .container-flex-team .card-e p {
+    font-family: "greback grotesque";
+    font-size: 1em;
+  }
+  .flex-container-body-our .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BFB9B8;
+  }
+  .flex-container-body-our .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+  }
+  .flex-container-body-our .container-social div a {
+    text-decoration: none;
+  }
+  .flex-container-body-our .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 1em;
+    justify-content: center;
+  }
+}
+/* @MediaQuerys our team TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .flex-container-body-our {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon02.jpg");
+    background: cover;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .flex-container-body-our header {
+    padding: 4%;
+    height: 1em;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB9B8;
+    align-items: center;
+    width: 100;
+  }
+  .flex-container-body-our header a img {
+    width: 4em;
+    margin: 4em;
+  }
+  .flex-container-body-our header nav ul li {
+    list-style-type: none;
+    margin: 0.2em;
+  }
+  .flex-container-body-our header nav ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 1.2em;
+  }
+  .flex-container-body-our main .container-flex-team {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .flex-container-body-our main .container-flex-team .card-e {
+    border: solid 0.3em;
+    padding: 2em;
+    margin: 0.5em 0.7em 0.5em 0.7em;
+    display: inline-block;
+    width: 87%;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    border-color: #403D3D;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-our main .container-flex-team .card-e a img {
+    width: 100%;
+  }
+  .flex-container-body-our main .container-flex-team .card-e h2 {
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .flex-container-body-our main .container-flex-team .card-e p {
+    font-family: "greback grotesque";
+    font-size: 1.3em;
+  }
+  .flex-container-body-our .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BFB9B8;
+  }
+  .flex-container-body-our .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+  }
+  .flex-container-body-our .container-social div a {
+    text-decoration: none;
+  }
+  .flex-container-body-our .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 1.4em;
+    justify-content: center;
+  }
+}
+/* @MediaQuerys our team DESKTOP*/
+@media only screen and (min-width: 1200px) and (max-width: 1680px) {
+  .flex-container-body-our {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon02.jpg");
+    background: cover;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .flex-container-body-our header {
+    padding: 2%;
+    height: 0.5em;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB9B8;
+    align-items: center;
+    width: 100;
+  }
+  .flex-container-body-our header a img {
+    width: 4em;
+    margin: 4em;
+  }
+  .flex-container-body-our header nav ul li {
+    list-style-type: none;
+    margin: 0.2em;
+  }
+  .flex-container-body-our header nav ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 1.4em;
+  }
+  .flex-container-body-our main .container-flex-team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .flex-container-body-our main .container-flex-team .card-e {
+    border: solid 0.3em;
+    padding: 2em;
+    margin: 0.5em 0.7em 0.5em 0.7em;
+    display: inline-block;
+    width: 20%;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    border-color: #403D3D;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-our main .container-flex-team .card-e a img {
+    width: 100%;
+  }
+  .flex-container-body-our main .container-flex-team .card-e h2 {
+    font-family: "greback grotesque";
+    text-align: center;
+  }
+  .flex-container-body-our main .container-flex-team .card-e p {
+    font-family: "greback grotesque";
+    font-size: 1.2em;
+  }
+  .flex-container-body-our .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BFB9B8;
+  }
+  .flex-container-body-our .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+  }
+  .flex-container-body-our .container-social div a {
+    text-decoration: none;
+  }
+  .flex-container-body-our .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 1.4em;
+    justify-content: center;
+  }
+}
+/*------------------------------------------------------*/
+/* @MediaQuerys questions and contact MOBILE FIRST*/
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .flex-container-body-preg {
+    overflow-x: hidden;
+    background-image: url("../assets/img/FondoHormigon02.jpg");
+    background: cover;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .flex-container-body-preg header {
+    padding-top: 2%;
+    height: 3em;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #BFB9B8;
+    align-items: center;
+    width: 100;
+  }
+  .flex-container-body-preg header a img {
+    width: 2em;
+    margin: 2em;
+  }
+  .flex-container-body-preg header nav ul {
+    padding: 1%;
+  }
+  .flex-container-body-preg header nav ul li {
+    list-style-type: none;
+    margin: 0.1em;
+  }
+  .flex-container-body-preg header nav ul li a {
+    flex-direction: row;
+    text-decoration: none;
+    font-family: "greback grotesque";
+    font-size: 0.68em;
+  }
+  .flex-container-body-preg .main-preg-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container-body-preg .main-preg-container .razones {
+    display: none;
+  }
+  .flex-container-body-preg .main-preg-container .preg-container {
+    display: none;
+  }
+  .flex-container-body-preg .main-preg-container .preg-box05 {
+    display: none;
+  }
+  .flex-container-body-preg .main-preg-container .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .flex-container-body-preg .main-preg-container .contacto h1 {
+    font-family: "greback grotesque";
+    color: #F2F2F2;
+    font-size: 1em;
+    text-align: center;
+    background-color: #403D3D;
+    padding: 0.3em;
+    margin: 0.3em;
+    border-radius: 0.3em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-preg .main-preg-container .contacto form .datos-personales {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container-body-preg .main-preg-container .contacto form .datos-personales fieldset {
+    background-color: #A69B98;
+    border-radius: 0.3em;
+    border: 0;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-preg .main-preg-container .contacto form .datos-personales fieldset legend {
+    font-family: "greback grotesque";
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #403D3D;
+  }
+  .flex-container-body-preg .main-preg-container .contacto form .datos-personales fieldset label {
+    padding-right: 5%;
+    font-family: "greback grotesque";
+    font-size: 1.1em;
+    color: #403D3D;
+  }
+  .flex-container-body-preg .main-preg-container .contacto form .datos-personales fieldset input {
+    width: 96%;
+  }
+  .flex-container-body-preg .main-preg-container .contacto form .comentarios {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container-body-preg .main-preg-container .contacto form .comentarios fieldset {
+    background-color: #A69B98;
+    border-radius: 0.3em;
+    border: 0;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 10px 5px 5px #403D3D;
+  }
+  .flex-container-body-preg .main-preg-container .contacto form .comentarios fieldset legend {
+    font-family: "greback grotesque";
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #403D3D;
+  }
+  .flex-container-body-preg .main-preg-container .contacto form .comentarios fieldset label {
+    padding-right: 5%;
+    font-family: "greback grotesque";
+    font-size: 1.1em;
+    color: #403D3D;
+  }
+  .flex-container-body-preg .main-preg-container .contacto form .comentarios fieldset textarea {
+    font-size: 1em;
+  }
+  .flex-container-body-preg .main-preg-container .preg-box06 {
+    display: none;
+  }
+  .flex-container-body-preg .container-social {
+    justify-content: center;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #BFB9B8;
+  }
+  .flex-container-body-preg .container-social div {
+    padding: 0.4em;
+    margin: 0;
+    text-align: center;
+  }
+  .flex-container-body-preg .container-social div a {
+    text-decoration: none;
+  }
+  .flex-container-body-preg .container-social div #copyright p {
+    font-family: "greback grotesque";
+    text-align: center;
+    font-size: 1em;
+    justify-content: center;
+  }
+}
 /* colores de links (Funcionan mal en el index cuando posiciono el puntero sobre los links (color), VER)*/
 a:link {
   color: #403D3D;
@@ -1332,7 +1840,7 @@ header nav a {
   background-image: url("../assets/img/FondoHormigon02.jpg");
   background: cover;
   margin: 0%;
-  min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }

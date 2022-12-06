@@ -1,12 +1,15 @@
-/*@MediaQuery LANDING PAGE - MOBILE FIRST*/
+/*@MediaQuery landing page - MOBILE FIRST*/
 @media only screen and (min-width: 360px) and (max-width: 767px){
     .body-landing{
         overflow-x: hidden;
         background-image:url("../assets/img/FondoHormigon02.jpg");
-        width: 100vw;
+        background: cover;
+        margin: 0%;
         display: flex;
         flex-direction: column;
+        min-height: 100vh;
         header{
+            padding-top: 2%;
             height: 3em;
             flex-direction: row;
             justify-content:space-around;
@@ -19,6 +22,7 @@
             }
             nav{
                 ul{
+                    padding: 1%;
                     li{
                         list-style-type: none;
                         margin: 0.1em;
@@ -152,39 +156,40 @@
     }
     
 }
-/*@MediaQuery LANDING PAGE - TABLET*/
+/*@MediaQuery landing page - TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1199px){
     .body-landing{
         overflow-x: hidden;
         background-image:url("../assets/img/FondoHormigon02.jpg");
-        width: 100vw;
+        background: cover;
+        margin: 0%;
         display: flex;
         flex-direction: column;
+        min-height: 100vh;
         header{
-            height: 4em;
-            background-color: #BFB9B8;
-            display: flex;
+            padding: 4%;
+            height: 1em;
             flex-direction: row;
             justify-content:space-around;
+            background-color: #BFB9B8;
             align-items: center;
-            padding: 3%;
+            width: 101%;
             a img{
                 width: 4em;
-                padding-left: 10%;
-                margin-left: 5%;
+                margin: 4em;
             }
             nav{
                 ul{
                     li{
                         list-style-type: none;
-                        margin: 0.1em;
+                        margin: 0.2em;
                         a{
+                            display: flex;
                             flex-direction: row;
-                            justify-content: space-around;
+                            justify-content: space-between;
                             text-decoration: none;
                             font-family: "greback grotesque";
                             font-size: 1.2em;
-                            padding: 0.5em;
                         }
                     }
                 }
@@ -319,7 +324,7 @@
         }
     }
 }
-/*@MediaQuery LANDING PAGE - DESKTOP*/
+/*@MediaQuery landing page - DESKTOP*/
 @media only screen and  (min-width: 1200px) and (max-width: 1680px){
     .body-landing{
         overflow-x: hidden;
@@ -489,7 +494,7 @@
     }
 }
 /*------------------------------------------------------*/
-/* @MediaQuerys  Que HACEMOS MOBILE FIRST*/
+/* @MediaQuerys what we do MOBILE FIRST*/
 @media only screen and (min-width: 360px) and (max-width: 767px){
     .flex-container-body-que{
         overflow-x: hidden;
@@ -497,23 +502,23 @@
         background: cover;
         margin: 0%;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         min-height: 100vh;
         header{
+            padding-top: 2%;
             height: 3em;
             flex-direction: row;
             justify-content:space-around;
             background-color: #BFB9B8;
             align-items: center;
-            width: 100%;
-            a{
-                img{
-                    width: 2em;
-                    margin: 2em;
-                }
+            width: 100;
+            a img{
+                width: 2em;
+                margin: 2em;
             }
             nav{
                 ul{
+                    padding: 1%;
                     li{
                         list-style-type: none;
                         margin: 0.1em;
@@ -642,7 +647,7 @@
         }
     }
 }
-/* @MediaQuerys  Que HACEMOS TABLET*/
+/* @MediaQuerys what we do TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1199px){
     .flex-container-body-que{
         overflow-x: hidden;
@@ -775,7 +780,7 @@
         }
     }
 }
-/* @MediaQuerys  Que HACEMOS DESKTOP*/
+/* @MediaQuerys what we do DESKTOP*/
 @media only screen and (min-width: 1200px) and (max-width: 1680px){
     .flex-container-body-que{
         overflow-x: hidden;
@@ -941,15 +946,16 @@
     }
 }
 /*------------------------------------------------------*/
-/* @MediaQuerys  home MOBILE FIRST*/
+/* @MediaQuerys home MOBILE FIRST*/
 @media only screen and (min-width: 360px) and (max-width: 767px){
     .flex-container-body{
         overflow-x: hidden;
         background-image:url("../assets/img/FondoHormigon02.jpg");
-        background-size: cover;
-        height: 100vh;
+        background: cover;
+        margin: 0%;
         display: flex;
         flex-direction: column;
+        min-height: 100vh;
         header{
             padding-top: 2%;
             height: 3em;
@@ -964,6 +970,7 @@
             }
             nav{
                 ul{
+                    padding: 1%;
                     li{
                         list-style-type: none;
                         margin: 0.1em;
@@ -1018,7 +1025,7 @@
         }
     }
 }
-/* @MediaQuerys  home TABLET*/
+/* @MediaQuerys home TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1199px){
     .header-home{
         padding: 4%;
@@ -1086,7 +1093,7 @@
         }
     }
 }
-/* @MediaQuerys  home DESKTOP*/
+/* @MediaQuerys home DESKTOP*/
 @media only screen and (min-width: 1200px) and (max-width: 1680px){
     .flex-container-body{
         overflow-x: hidden;
@@ -1144,7 +1151,7 @@
     }
 }
 /*------------------------------------------------------*/
-/* @MediaQuerys  Proyects MOBILE FIRST*/
+/* @MediaQuerys Proyects MOBILE FIRST*/
 @media only screen and (min-width: 360px) and (max-width: 767px){
     .flex-container-body-proy{
         overflow-x: hidden;
@@ -1168,6 +1175,7 @@
             }
             nav{
                 ul{
+                    padding: 1%;
                     li{
                         list-style-type: none;
                         margin: 0.1em;
@@ -1234,7 +1242,7 @@
         }
     }
 }
-/* @MediaQuerys  home TABLET*/
+/* @MediaQuerys Proyects TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1199px){
     .flex-container-body-proy{
         overflow-x: hidden;
@@ -1326,7 +1334,526 @@
         }
     }
 }
-/* @MediaQuerys  home DESKTOP*/
+/* @MediaQuerys Proyects DESKTOP*/
 @media only screen and (min-width: 1200px) and (max-width: 1680px){
-    
+    .flex-container-body-proy{
+        overflow-x: hidden;
+        background-image:url("../assets/img/FondoHormigon02.jpg");
+        background: cover;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        header{
+            padding: 2%;
+            height: 0.5em;
+            flex-direction: row;
+            justify-content:space-around;
+            background-color: #BFB9B8;
+            align-items: center;
+            width: 100;
+            a img{
+                width: 4em;
+                margin: 4em;
+            }
+            nav{
+                ul{
+                    li{
+                        list-style-type: none;
+                        margin: 0.2em;
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            text-decoration: none;
+                            font-family: "greback grotesque";
+                            font-size: 1.4em;
+                        }
+                    }
+                }
+            }
+        }
+        main{
+            section{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                .card-o{
+                    border: solid 0.3em;
+                    padding: 2em;
+                    margin: 0.5em 0.7em 0.5em 0.7em;
+                    display: inline-block;
+                    width: 16%;
+                    background-color: #F2F2F2;
+                    border-radius: 1.5em;
+                    border-color: #403D3D;
+                    overflow: hidden;
+                    box-shadow: 10px 5px 5px #403D3D;
+                    img{
+                        width: 100%;
+                    }
+                    h2{
+                        font-family: "greback grotesque";
+                        text-align: center;
+                    }
+                    p{
+                        font-family: "greback grotesque";
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        }
+        .container-social{
+            justify-content: center;
+            bottom:0;
+            margin-top: auto;
+            background-color: #BFB9B8;
+            div{
+                padding: 0.4em;
+                margin: 0;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                }
+                #copyright p{
+                    font-family: "greback grotesque";
+                    text-align: center;
+                    font-size: 1.4em;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+/*------------------------------------------------------*/
+/* @MediaQuerys our team MOBILE FIRST*/
+@media only screen and (min-width: 360px) and (max-width: 767px){
+    .flex-container-body-our{
+        overflow-x: hidden;
+        background-image:url("../assets/img/FondoHormigon02.jpg");
+        background: cover;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        header{
+            padding-top: 2%;
+            height: 3em;
+            flex-direction: row;
+            justify-content:space-around;
+            background-color: #BFB9B8;
+            align-items: center;
+            width: 100;
+            a img{
+                width: 2em;
+                margin: 2em;
+            }
+            nav{
+                ul{
+                    padding: 1%;
+                    li{
+                        list-style-type: none;
+                        margin: 0.1em;
+                        a{
+                            flex-direction: row;
+                            text-decoration: none;
+                            font-family: "greback grotesque";
+                            font-size: 0.68em;
+                        }
+                    }
+                }
+            }
+        }
+        main{
+            .container-flex-team{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                .card-e{
+                    border: solid 0.3em;
+                    padding: 2em;
+                    margin: 0.5em 0.7em 0.5em 0.7em;
+                    display: inline-block;
+                    width: 72%;
+                    background-color: #F2F2F2;
+                    border-radius: 1.5em;
+                    border-color: #403D3D;
+                    overflow: hidden;
+                    box-shadow: 10px 5px 5px #403D3D;
+                    a{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    h2{
+                        font-family: "greback grotesque";
+                        text-align: center;
+                    }
+                    p{
+                        font-family: "greback grotesque";
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+        .container-social{
+            justify-content: center;
+            bottom:0;
+            margin-top: auto;
+            background-color: #BFB9B8;
+            div{
+                padding: 0.4em;
+                margin: 0;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                }
+                #copyright p{
+                    font-family: "greback grotesque";
+                    text-align: center;
+                    font-size: 1em;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+/* @MediaQuerys our team TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    .flex-container-body-our{
+        overflow-x: hidden;
+        background-image:url("../assets/img/FondoHormigon02.jpg");
+        background: cover;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        header{
+            padding: 4%;
+            height: 1em;
+            flex-direction: row;
+            justify-content:space-around;
+            background-color: #BFB9B8;
+            align-items: center;
+            width: 100;
+            a img{
+                width: 4em;
+                margin: 4em;
+            }
+            nav{
+                ul{
+                    li{
+                        list-style-type: none;
+                        margin: 0.2em;
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            text-decoration: none;
+                            font-family: "greback grotesque";
+                            font-size: 1.2em;
+                        }
+                    }
+                }
+            }
+        }
+        main{
+            .container-flex-team{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                .card-e{
+                    border: solid 0.3em;
+                    padding: 2em;
+                    margin: 0.5em 0.7em 0.5em 0.7em;
+                    display: inline-block;
+                    width: 87%;
+                    background-color: #F2F2F2;
+                    border-radius: 1.5em;
+                    border-color: #403D3D;
+                    overflow: hidden;
+                    box-shadow: 10px 5px 5px #403D3D;
+                    a{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    h2{
+                        font-family: "greback grotesque";
+                        text-align: center;
+                    }
+                    p{
+                        font-family: "greback grotesque";
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        }
+        .container-social{
+            justify-content: center;
+            bottom:0;
+            margin-top: auto;
+            background-color: #BFB9B8;
+            div{
+                padding: 0.4em;
+                margin: 0;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                }
+                #copyright p{
+                    font-family: "greback grotesque";
+                    text-align: center;
+                    font-size: 1.4em;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+/* @MediaQuerys our team DESKTOP*/
+@media only screen and (min-width: 1200px) and (max-width: 1680px){
+    .flex-container-body-our{
+        overflow-x: hidden;
+        background-image:url("../assets/img/FondoHormigon02.jpg");
+        background: cover;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        header{
+            padding: 2%;
+            height: 0.5em;
+            flex-direction: row;
+            justify-content:space-around;
+            background-color: #BFB9B8;
+            align-items: center;
+            width: 100;
+            a img{
+                width: 4em;
+                margin: 4em;
+            }
+            nav{
+                ul{
+                    li{
+                        list-style-type: none;
+                        margin: 0.2em;
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            text-decoration: none;
+                            font-family: "greback grotesque";
+                            font-size: 1.4em;
+                        }
+                    }
+                }
+            }
+        }
+        main{
+            .container-flex-team{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                .card-e{
+                    border: solid 0.3em;
+                    padding: 2em;
+                    margin: 0.5em 0.7em 0.5em 0.7em;
+                    display: inline-block;
+                    width: 20%;
+                    background-color: #F2F2F2;
+                    border-radius: 1.5em;
+                    border-color: #403D3D;
+                    overflow: hidden;
+                    box-shadow: 10px 5px 5px #403D3D;
+                    a{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    h2{
+                        font-family: "greback grotesque";
+                        text-align: center;
+                    }
+                    p{
+                        font-family: "greback grotesque";
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+        .container-social{
+            justify-content: center;
+            bottom:0;
+            margin-top: auto;
+            background-color: #BFB9B8;
+            div{
+                padding: 0.4em;
+                margin: 0;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                }
+                #copyright p{
+                    font-family: "greback grotesque";
+                    text-align: center;
+                    font-size: 1.4em;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+/*------------------------------------------------------*/
+/* @MediaQuerys questions and contact MOBILE FIRST*/
+@media only screen and (min-width: 360px) and (max-width: 767px){
+    .flex-container-body-preg{
+        overflow-x: hidden;
+        background-image:url("../assets/img/FondoHormigon02.jpg");
+        background: cover;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        header{
+            padding-top: 2%;
+            height: 3em;
+            flex-direction: row;
+            justify-content:space-around;
+            background-color: #BFB9B8;
+            align-items: center;
+            width: 100;
+            a img{
+                width: 2em;
+                margin: 2em;
+            }
+            nav{
+                ul{
+                    padding: 1%;
+                    li{
+                        list-style-type: none;
+                        margin: 0.1em;
+                        a{
+                            flex-direction: row;
+                            text-decoration: none;
+                            font-family: "greback grotesque";
+                            font-size: 0.68em;
+                        }
+                    }
+                }
+            }
+        }
+        .main-preg-container{
+            display: flex;
+            flex-direction: column;
+            .razones{
+                display: none;
+            }
+            .preg-container{
+                display: none;
+            }
+            .preg-box05{
+                display: none;
+            }
+            .contacto{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h1{
+                    font-family: "greback grotesque";
+                    color: #F2F2F2;
+                    font-size: 1em;
+                    text-align: center;
+                    background-color: #403D3D;
+                    padding: 0.3em;
+                    margin: 0.3em;
+                    border-radius: 0.3em;
+                    box-shadow: 10px 5px 5px #403D3D;
+                }
+                form{
+                    .datos-personales{
+                        display: flex;
+                        flex-direction: column;
+                        fieldset{
+                            background-color:#A69B98;
+                            border-radius: 0.3em;
+                            border: 0;
+                            padding: 0.5em;
+                            margin: 0.5em;
+                            box-shadow: 10px 5px 5px #403D3D;
+                            legend{
+                                font-family: "greback grotesque";
+                                font-weight: 700;
+                                font-size: 1.5em;
+                                color: #403D3D;
+                            }
+                            label{
+                                padding-right: 5%;
+                                font-family: "greback grotesque";
+                                font-size: 1.1em;
+                                color: #403D3D;
+                            }
+                            input{
+                                width: 96%;
+                            }
+                        }
+                    }
+                    .comentarios{
+                        display: flex;
+                        flex-direction: column;
+                        fieldset{
+                            background-color:#A69B98;
+                            border-radius: 0.3em;
+                            border: 0;
+                            padding: 0.5em;
+                            margin: 0.5em;
+                            box-shadow: 10px 5px 5px #403D3D;
+                            legend{
+                                font-family: "greback grotesque";
+                                font-weight: 700;
+                                font-size: 1.5em;
+                                color: #403D3D;
+                            }
+                            label{
+                                padding-right: 5%;
+                                font-family: "greback grotesque";
+                                font-size: 1.1em;
+                                color: #403D3D;
+                            }
+                            textarea{
+                                font-size: 1em;
+                            }
+                        }
+                    }
+                }
+            }
+            .preg-box06{
+                display: none;
+            }
+        }
+        .container-social{
+            justify-content: center;
+            bottom:0;
+            margin-top: auto;
+            background-color: #BFB9B8;
+            div{
+                padding: 0.4em;
+                margin: 0;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                }
+                #copyright p{
+                    font-family: "greback grotesque";
+                    text-align: center;
+                    font-size: 1em;
+                    justify-content: center;
+                }
+            }
+        }
+    }
 }
