@@ -1825,7 +1825,57 @@
                                 color: #403D3D;
                             }
                             textarea{
+                                font-family: "greback grotesque";
                                 font-size: 1em;
+                                color: #403D3D;
+                                width: 90%;
+                            }
+                        }
+                    }
+                    .img-adj{
+                        fieldset{
+                            display: flex;
+                            flex-direction: column;
+                            background-color:#A69B98;
+                            border-radius: 0.3em;
+                            border: 0;
+                            padding: 0.5em;
+                            margin: 0.5em;
+                            box-shadow: 10px 5px 5px #403D3D;
+                            legend{
+                                font-family: "greback grotesque";
+                                font-weight: 700;
+                                font-size: 1.5em;
+                                color: #403D3D;
+                            }
+                            label{
+                                padding-right: 5%;
+                                font-family: "greback grotesque";
+                                font-size: 1.1em;
+                                color: #403D3D;
+                            }
+                        }
+                    }
+                    .enviar{
+                        fieldset{
+                            display: flex;
+                            flex-direction: column;
+                            background-color:#A69B98;
+                            border-radius: 0.3em;
+                            border: 0;
+                            padding: 0.5em;
+                            margin: 0.5em;
+                            box-shadow: 10px 5px 5px #403D3D;
+                            legend{
+                                font-family: "greback grotesque";
+                                font-weight: 700;
+                                font-size: 1.5em;
+                                color: #403D3D;
+                            }
+                            input{
+                                font-family: "greback grotesque";
+                                font-size: 1em;
+                                color: #403D3D;
                             }
                         }
                     }
@@ -1855,5 +1905,299 @@
                 }
             }
         }
+    }
+}
+/* @MediaQuerys questions and contact TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    .flex-container-body-preg{
+        overflow-x: hidden;
+        background-image:url("../assets/img/FondoHormigon02.jpg");
+        background: cover;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        header{
+            padding: 4%;
+            height: 1em;
+            flex-direction: row;
+            justify-content:space-around;
+            background-color: #BFB9B8;
+            align-items: center;
+            width: 101%;
+            a img{
+                width: 4em;
+                margin: 4em;
+            }
+            nav{
+                ul{
+                    li{
+                        list-style-type: none;
+                        margin: 0.2em;
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            text-decoration: none;
+                            font-family: "greback grotesque";
+                            font-size: 1.2em;
+                        }
+                    }
+                }
+            }
+        }
+        .main-preg-container{
+            display: flex;
+            flex-direction: column;
+            .razones{
+                display: flex;
+                flex-direction: column;
+                h1{
+                    width: 100vw;
+                    font-size: 1.5em;
+                    font-family: "greback grotesque";
+                    text-align: center;
+                    padding: 0.5em;
+                    color: #F2F2F2;
+                    padding: 0.5em;
+                    margin: 0.5em;
+                    background-color: #403D3D;
+                    border-radius: 0.3em;
+                    box-shadow: 10px 5px 5px #403D3D;
+                }
+            }
+            .preg-container{
+                height: 100%;
+                .preg-box01{
+                    background-color:#F2F2F2;
+                    width: 100vw;
+                    padding: 0.5em;
+                    margin: 1em;
+                    border: solid 0.3em;
+                    border-radius: 1em;
+                    box-shadow: 10px 5px 5px #403D3D;
+                    height: 20%;
+                    h3{
+                        font-family: "greback grotesque";
+                        color: #F2F2F2;
+                        padding: 0.5em;
+                        margin: 0.5em;
+                        background-color: #403D3D;
+                        border-radius: 0.3em;
+                        width: 30.5%;
+                        width: 95%;
+                    }
+                    li{
+                        font-family: "greback grotesque";
+                        font-size: 1.2em;
+                        list-style-type: none;
+                        padding: 0.5em;
+                        margin: 0%;
+                    }
+                }
+                .preg-box02{
+                    background-color:#F2F2F2;
+                    width: 100vw;
+                    padding: 0.5em;
+                    margin: 1em;
+                    border: solid 0.3em;
+                    border-radius: 1em;
+                    box-shadow: 10px 5px 5px #403D3D;
+                    height: 25%;
+                    h3{
+                        font-family: "greback grotesque";
+                        color: #F2F2F2;
+                        padding: 0.5em;
+                        margin: 0.5em;
+                        background-color: #403D3D;
+                        border-radius: 0.3em;
+                        width: 30.5%;
+                        width: 95%;
+                    }
+                    li{
+                        font-family: "greback grotesque";
+                        font-size: 1.2em;
+                        list-style-type: none;
+                        padding: 0.5em;
+                        margin: 0%;
+                    }
+                }
+                .preg-box03{
+                    background-color:#F2F2F2;
+                    width: 100vw;
+                    padding: 0.5em;
+                    margin: 1em;
+                    border: solid 0.3em;
+                    border-radius: 1em;
+                    box-shadow: 10px 5px 5px #403D3D;
+                    height: 20%;
+                    h3{
+                        font-family: "greback grotesque";
+                        color: #F2F2F2;
+                        padding: 0.5em;
+                        margin: 0.5em;
+                        background-color: #403D3D;
+                        border-radius: 0.3em;
+                        width: 30.5%;
+                        width: 95%;
+                    }
+                    li{
+                        font-family: "greback grotesque";
+                        font-size: 1.2em;
+                        list-style-type: none;
+                        padding: 0.5em;
+                        margin: 0%;
+                    }
+                }
+                .preg-box04{
+                    background-color:#F2F2F2;
+                    width: 100vw;
+                    padding: 0.5em;
+                    margin: 1em;
+                    border: solid 0.3em;
+                    border-radius: 1em;
+                    box-shadow: 10px 5px 5px #403D3D;
+                    height: 20%;
+                }
+                .preg-box05{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100vw;
+                    .razon-img{
+                        width: 100vw;
+                        border-radius: 5em;
+                        box-shadow: 10px 5px 5px #403D3D;
+                    }
+                }
+            }
+            .contacto{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 100vw;
+                h1{
+                    font-family: "greback grotesque";
+                    color: #F2F2F2;
+                    font-size: 1.7em;
+                    text-align: center;
+                    background-color: #403D3D;
+                    padding: 0.3em;
+                    margin: 0.3em;
+                    border-radius: 0.3em;
+                    box-shadow: 10px 5px 5px #403D3D;
+                }
+                form{
+                    .datos-personales{
+                        display: flex;
+                        flex-direction: column;
+                        fieldset{
+                            background-color:#A69B98;
+                            border-radius: 0.3em;
+                            border: 0;
+                            padding: 0.5em;
+                            margin: 0.5em;
+                            box-shadow: 10px 5px 5px #403D3D;
+                            legend{
+                                font-family: "greback grotesque";
+                                font-weight: 700;
+                                font-size: 1.7em;
+                                color: #403D3D;
+                            }
+                            label{
+                                padding-right: 5%;
+                                font-family: "greback grotesque";
+                                font-size: 1.1em;
+                                color: #403D3D;
+                            }
+                            input{
+                                width: 96%;
+                            }
+                        }
+                    }
+                    .comentarios{
+                        display: flex;
+                        flex-direction: column;
+                        fieldset{
+                            background-color:#A69B98;
+                            border-radius: 0.3em;
+                            border: 0;
+                            padding: 0.5em;
+                            margin: 0.5em;
+                            box-shadow: 10px 5px 5px #403D3D;
+                            legend{
+                                font-family: "greback grotesque";
+                                font-weight: 700;
+                                font-size: 1.7em;
+                                color: #403D3D;
+                            }
+                            label{
+                                padding-right: 5%;
+                                font-family: "greback grotesque";
+                                font-size: 1.1em;
+                                color: #403D3D;
+                            }
+                            textarea{
+                                font-family: "greback grotesque";
+                                font-size: 1em;
+                                color: #403D3D;
+                                width: 90%;
+                            }
+                        }
+                    }
+                    .img-adj{
+                        fieldset{
+                            display: flex;
+                            flex-direction: column;
+                            background-color:#A69B98;
+                            border-radius: 0.3em;
+                            border: 0;
+                            padding: 0.5em;
+                            margin: 0.5em;
+                            box-shadow: 10px 5px 5px #403D3D;
+                            legend{
+                                font-family: "greback grotesque";
+                                font-weight: 700;
+                                font-size: 1.7em;
+                                color: #403D3D;
+                            }
+                            label{
+                                padding-right: 5%;
+                                font-family: "greback grotesque";
+                                font-size: 1.1em;
+                                color: #403D3D;
+                            }
+                        }
+                    }
+                    .enviar{
+                        fieldset{
+                            display: flex;
+                            flex-direction: column;
+                            background-color:#A69B98;
+                            border-radius: 0.3em;
+                            border: 0;
+                            padding: 0.5em;
+                            margin: 0.5em;
+                            box-shadow: 10px 5px 5px #403D3D;
+                            legend{
+                                font-family: "greback grotesque";
+                                font-weight: 700;
+                                font-size: 1.7em;
+                                color: #403D3D;
+                            }
+                            input{
+                                font-family: "greback grotesque";
+                                font-size: 1em;
+                                color: #403D3D;
+                            }
+                        }
+                    }
+                }
+            }
+            .preg-box06{
+                display: none;
+            }
+        }
+        
     }
 }
