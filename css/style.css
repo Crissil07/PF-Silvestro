@@ -613,7 +613,7 @@ nav a{
 .flex-container-body-preg{
     overflow-x: hidden;
     background-image:url("../assets/img/FondoHormigon.jpg");
-    background: cover;
+    background-size: cover;
     margin: 0%;
     display: flex;
     flex-direction: column;
