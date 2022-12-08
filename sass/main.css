@@ -168,18 +168,19 @@
     background-image: url("../assets/img/FondoHormigon02.jpg");
     background: cover;
     margin: 0%;
+    padding: 0%;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
   .body-landing header {
     padding: 4%;
-    height: 1em;
+    height: 2em;
     flex-direction: row;
     justify-content: space-around;
     background-color: #BFB9B8;
     align-items: center;
-    width: 101%;
+    width: 100;
   }
   .body-landing header a img {
     width: 4em;
@@ -187,7 +188,7 @@
   }
   .body-landing header nav ul li {
     list-style-type: none;
-    margin: 0.2em;
+    margin: 0.7em;
   }
   .body-landing header nav ul li a {
     display: flex;
@@ -198,6 +199,7 @@
     font-size: 1.2em;
   }
   .body-landing .main-landing {
+    padding: 0%;
     display: grid;
     width: 100%;
     grid-template-columns: 30% 40% 30%;
@@ -600,18 +602,20 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 1em;
+    align-items: center;
     height: 90%;
+    padding: 0%;
+    margin: 0%;
   }
   .flex-container-body-que .main-queHacemos-container .what-img-container .hacemos-img {
-    width: 90%;
+    width: 92.5%;
     border-radius: 1em;
     box-shadow: 10px 5px 5px  #403D3D;
   }
   .flex-container-body-que .container-social {
     justify-content: center;
     bottom: 0;
-    margin-top: auto;
+    margin-top: 5%;
   }
   .flex-container-body-que .container-social div {
     padding: 0.4em;
@@ -638,33 +642,35 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
+    padding: 0%;
   }
   .flex-container-body-que header {
-    padding: 2%;
-    height: 4em;
-    background-color: #BFB9B8;
+    padding: 4%;
+    height: 2em;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #BFB9B8;
     align-items: center;
+    width: 100;
   }
   .flex-container-body-que header a img {
     width: 4em;
-    padding-left: 20%;
-    margin-left: 0%;
+    margin: 4em;
   }
   .flex-container-body-que header nav ul li {
     list-style-type: none;
-    margin: 0.1em;
+    margin: 0.7em;
   }
   .flex-container-body-que header nav ul li a {
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     text-decoration: none;
     font-family: "greback grotesque";
     font-size: 1.2em;
-    padding: 0.5em;
   }
   .flex-container-body-que .main-queHacemos-container {
+    padding: 0%;
     display: grid;
     width: 100%;
     grid-template-columns: 40% 60%;
@@ -930,7 +936,7 @@
   }
   .flex-container-body header {
     padding-top: 2%;
-    height: 3em;
+    height: 4em;
     flex-direction: row;
     justify-content: space-around;
     background-color: #BFB9B8;
@@ -946,7 +952,7 @@
   }
   .flex-container-body header nav ul li {
     list-style-type: none;
-    margin: 0.1em;
+    margin: 0.2em;
   }
   .flex-container-body header nav ul li a {
     flex-direction: row;
@@ -998,7 +1004,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .header-home {
     padding: 4%;
-    height: 6em;
+    height: 7em;
     flex-direction: row;
     justify-content: space-around;
     background-color: #BFB9B8;
@@ -1011,7 +1017,7 @@
   }
   .header-home nav ul li {
     list-style-type: none;
-    margin: 0.2em;
+    margin: 0.7em;
   }
   .header-home nav ul li a {
     display: flex;
@@ -1036,7 +1042,7 @@
   .container-social {
     justify-content: center;
     bottom: 0;
-    margin-top: auto;
+    margin-top: 5%;
     background-color: #BFB9B8;
   }
   .container-social div {
@@ -1117,7 +1123,7 @@
   }
   .flex-container-body-proy header {
     padding-top: 2%;
-    height: 3em;
+    height: 4em;
     flex-direction: row;
     justify-content: space-around;
     background-color: #BFB9B8;
@@ -1133,7 +1139,7 @@
   }
   .flex-container-body-proy header nav ul li {
     list-style-type: none;
-    margin: 0.1em;
+    margin: 0.2em;
   }
   .flex-container-body-proy header nav ul li a {
     flex-direction: row;
@@ -1204,7 +1210,7 @@
   }
   .flex-container-body-proy header {
     padding: 4%;
-    height: 1em;
+    height: 3em;
     flex-direction: row;
     justify-content: space-around;
     background-color: #BFB9B8;
@@ -1217,7 +1223,7 @@
   }
   .flex-container-body-proy header nav ul li {
     list-style-type: none;
-    margin: 0.2em;
+    margin: 0.7em;
   }
   .flex-container-body-proy header nav ul li a {
     display: flex;
@@ -1377,7 +1383,7 @@
   }
   .flex-container-body-our header {
     padding-top: 2%;
-    height: 3em;
+    height: 4em;
     flex-direction: row;
     justify-content: space-around;
     background-color: #BFB9B8;
@@ -1393,7 +1399,7 @@
   }
   .flex-container-body-our header nav ul li {
     list-style-type: none;
-    margin: 0.1em;
+    margin: 0.2em;
   }
   .flex-container-body-our header nav ul li a {
     flex-direction: row;
@@ -1464,7 +1470,7 @@
   }
   .flex-container-body-our header {
     padding: 4%;
-    height: 1em;
+    height: 3em;
     flex-direction: row;
     justify-content: space-around;
     background-color: #BFB9B8;
@@ -1477,7 +1483,7 @@
   }
   .flex-container-body-our header nav ul li {
     list-style-type: none;
-    margin: 0.2em;
+    margin: 0.7em;
   }
   .flex-container-body-our header nav ul li a {
     display: flex;
@@ -1637,7 +1643,7 @@
   }
   .flex-container-body-preg header {
     padding-top: 2%;
-    height: 3em;
+    height: 4em;
     flex-direction: row;
     justify-content: space-around;
     background-color: #BFB9B8;
@@ -1653,7 +1659,7 @@
   }
   .flex-container-body-preg header nav ul li {
     list-style-type: none;
-    margin: 0.1em;
+    margin: 0.2em;
   }
   .flex-container-body-preg header nav ul li a {
     flex-direction: row;
@@ -1816,33 +1822,24 @@
 }
 /* @MediaQuerys questions and contact TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  .flex-container-body-preg {
-    background-image: url("../assets/img/FondoHormigon02.jpg");
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
-  }
-  .flex-container-body-preg header {
-    padding: 4%;
+  header {
+    padding: 3%;
     height: 1em;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #BFB9B8;
     align-items: center;
-    width: 110%;
+    width: 100;
   }
-  .flex-container-body-preg header a img {
+  header a img {
     width: 4em;
     margin: 4em;
   }
-  .flex-container-body-preg header nav ul li {
+  header nav ul li {
     list-style-type: none;
-    margin: 0.2em;
+    margin: 0.7em;
   }
-  .flex-container-body-preg header nav ul li a {
+  header nav ul li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1850,276 +1847,51 @@
     font-family: "greback grotesque";
     font-size: 1.2em;
   }
-  .flex-container-body-preg .main-preg-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .flex-container-body-preg .main-preg-container .razones {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .main-preg-container {
+    padding: 0%;
     width: 100vw;
   }
-  .flex-container-body-preg .main-preg-container .razones h1 {
-    width: 100%;
-    font-size: 1.5em;
-    font-family: "greback grotesque";
-    text-align: center;
-    padding: 0.5em;
-    color: #F2F2F2;
-    padding: 0.5em;
-    margin: 0.5em;
-    background-color: #403D3D;
-    border-radius: 0.3em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .preg-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .flex-container-body-preg .main-preg-container .preg-container .preg-box01 {
-    background-color: #F2F2F2;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-    width: 100vw;
-  }
-  .flex-container-body-preg .main-preg-container .preg-container .preg-box01 h3 {
-    font-family: "greback grotesque";
-    color: #F2F2F2;
-    padding: 0.5em;
-    margin: 0.5em;
-    background-color: #403D3D;
-    border-radius: 0.3em;
-    width: 30.5%;
-    width: 95%;
-  }
-  .flex-container-body-preg .main-preg-container .preg-container .preg-box01 li {
-    font-family: "greback grotesque";
-    font-size: 1.2em;
-    list-style-type: none;
-    padding: 0.5em;
-    margin: 0%;
-  }
-  .flex-container-body-preg .main-preg-container .preg-container .preg-box02 {
-    background-color: #F2F2F2;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-    width: 100vw;
-  }
-  .flex-container-body-preg .main-preg-container .preg-container .preg-box02 h3 {
-    font-family: "greback grotesque";
-    color: #F2F2F2;
-    padding: 0.5em;
-    margin: 0.5em;
-    background-color: #403D3D;
-    border-radius: 0.3em;
-    width: 30.5%;
-    width: 95%;
-  }
-  .flex-container-body-preg .main-preg-container .preg-container .preg-box02 li {
-    font-family: "greback grotesque";
-    font-size: 1.2em;
-    list-style-type: none;
-    padding: 0.5em;
-    margin: 0%;
-  }
-  .flex-container-body-preg .main-preg-container .preg-container .preg-box03 {
-    background-color: #F2F2F2;
-    width: 100vw;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-    height: 20%;
-  }
-  .flex-container-body-preg .main-preg-container .preg-container .preg-box03 h3 {
-    font-family: "greback grotesque";
-    color: #F2F2F2;
-    padding: 0.5em;
-    margin: 0.5em;
-    background-color: #403D3D;
-    border-radius: 0.3em;
-    width: 30.5%;
-    width: 95%;
-  }
-  .flex-container-body-preg .main-preg-container .preg-container .preg-box03 li {
-    font-family: "greback grotesque";
-    font-size: 1.2em;
-    list-style-type: none;
-    padding: 0.5em;
-    margin: 0%;
-  }
-  .flex-container-body-preg .main-preg-container .preg-container .preg-box04 {
-    background-color: #F2F2F2;
-    width: 100vw;
-    padding: 0.5em;
-    margin: 1em;
-    border: solid 0.3em;
-    border-radius: 1em;
-    box-shadow: 10px 5px 5px #403D3D;
-    height: 20%;
-  }
-  .flex-container-body-preg .main-preg-container .preg-box05 {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-  }
-  .flex-container-body-preg .main-preg-container .contacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .flex-container-body-preg .main-preg-container .contacto h1 {
-    width: 100vw;
-    font-family: "greback grotesque";
-    color: #F2F2F2;
-    font-size: 1.7em;
-    text-align: center;
-    background-color: #403D3D;
-    padding: 0.3em;
-    margin: 0.3em;
-    border-radius: 0.3em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .datos-personales {
-    display: flex;
-    flex-direction: column;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .datos-personales fieldset {
-    width: 100vw;
-    background-color: #A69B98;
-    border-radius: 0.3em;
-    border: 0;
-    padding: 0.5em;
-    margin: 0.5em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .datos-personales fieldset legend {
-    font-family: "greback grotesque";
-    font-weight: 700;
-    font-size: 1.7em;
-    color: #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .datos-personales fieldset label {
-    padding-right: 5%;
-    font-family: "greback grotesque";
-    font-size: 1.1em;
-    color: #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .datos-personales fieldset input {
+  .main-preg-container .razones {
     width: 96%;
   }
-  .flex-container-body-preg .main-preg-container .contacto form .comentarios {
+  .main-preg-container .preg-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
-  .flex-container-body-preg .main-preg-container .contacto form .comentarios fieldset {
-    width: 100vw;
-    background-color: #A69B98;
-    border-radius: 0.3em;
-    border: 0;
-    padding: 0.5em;
-    margin: 0.5em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .comentarios fieldset legend {
-    font-family: "greback grotesque";
-    font-weight: 700;
-    font-size: 1.7em;
-    color: #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .comentarios fieldset label {
-    padding-right: 5%;
-    font-family: "greback grotesque";
-    font-size: 1.1em;
-    color: #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .comentarios fieldset textarea {
-    font-family: "greback grotesque";
-    font-size: 1em;
-    color: #403D3D;
-    width: 90%;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .img-adj fieldset {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    background-color: #A69B98;
-    border-radius: 0.3em;
-    border: 0;
-    padding: 0.5em;
-    margin: 0.5em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .img-adj fieldset legend {
-    font-family: "greback grotesque";
-    font-weight: 700;
-    font-size: 1.7em;
-    color: #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .img-adj fieldset label {
-    padding-right: 5%;
-    font-family: "greback grotesque";
-    font-size: 1.1em;
-    color: #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .enviar fieldset {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    background-color: #A69B98;
-    border-radius: 0.3em;
-    border: 0;
-    padding: 0.5em;
-    margin: 0.5em;
-    box-shadow: 10px 5px 5px #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .enviar fieldset legend {
-    font-family: "greback grotesque";
-    font-weight: 700;
-    font-size: 1.7em;
-    color: #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .contacto form .enviar fieldset input {
-    font-family: "greback grotesque";
-    font-size: 1em;
-    color: #403D3D;
-  }
-  .flex-container-body-preg .main-preg-container .preg-box06 {
+  .main-preg-container .preg-box05 {
     display: none;
   }
-  .flex-container-body-preg .container-social {
+  .main-preg-container .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 96%;
+  }
+  .main-preg-container .preg-box06 {
+    display: none;
+  }
+  .container-social {
     justify-content: center;
     bottom: 0;
     margin-top: auto;
     background-color: #BFB9B8;
-    width: 110%;
+    width: 100%;
   }
-  .flex-container-body-preg .container-social div {
-    padding: 0.4em;
+  .container-social div {
+    padding-right: 0.4em;
     margin: 0;
     text-align: center;
   }
-  .flex-container-body-preg .container-social div a {
+  .container-social div a {
     text-decoration: none;
   }
-  .flex-container-body-preg .container-social div #copyright p {
+  .container-social div #copyright p {
     font-family: "greback grotesque";
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.2em;
     justify-content: center;
   }
 }
@@ -2405,19 +2177,20 @@ header nav a {
 .flex-container-body-preg {
   overflow-x: hidden;
   background-image: url("../assets/img/FondoHormigon02.jpg");
-  background: cover;
+  background-size: cover;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.flex-container-body-preg main {
+  padding: 0%;
   margin: 0%;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-}
-.flex-container-body-preg main {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 6% 47% 47%;
   align-items: center;
-  grid-template-areas: "xq xq" "razon img" "img cont";
 }
 .flex-container-body-preg main .razones {
   /* background-color: aqua; */
@@ -2560,7 +2333,7 @@ header nav a {
   grid-column: 2/3;
   grid-row: 2/3;
   width: 100%;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -2573,9 +2346,6 @@ header nav a {
   grid-area: cont;
   grid-column: 2/3;
   grid-row: 3/4;
-  padding: 0.5em;
-  margin: 0.5em;
-  width: 97%;
 }
 .flex-container-body-preg main .contacto h1 {
   font-family: "greback grotesque";
@@ -2670,7 +2440,6 @@ header nav a {
   grid-column: 1/2;
   grid-row: 3/4;
   width: 100%;
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;

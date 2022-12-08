@@ -292,21 +292,27 @@ header{
 .flex-container-body-preg{
     overflow-x: hidden;
     background-image:url("../assets/img/FondoHormigon02.jpg");
-    background: cover;
+    background-size: cover;
     margin: 0%;
+    padding: 0%;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
     main{
-        display: grid;
-        width: 100%;
-        grid-template-columns: 50% 50% ;
-        grid-template-rows: 6% 47% 47%;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        // display: grid;
+        // width: 100%;
+        // grid-template-columns: 50% 50% ;
+        // grid-template-rows: 6% 47% 47%;
         align-items: center;
-        grid-template-areas:
-        "xq xq"
-        "razon img"
-        "img cont";
+        // grid-template-areas:
+        // "xq xq"
+        // "razon img"
+        // "img cont";
         .razones{
             /* background-color: aqua; */
             grid-area: xq;
@@ -449,7 +455,7 @@ header{
             grid-column: 2/3;
             grid-row: 2/3;
             width: 100%;
-            display: flex;
+            display: none;
             justify-content: center;
             align-items: center;
             .razon-img{
@@ -462,9 +468,9 @@ header{
             grid-area: cont;
             grid-column: 2/3;
             grid-row: 3/4;
-            padding: 0.5em;
-            margin: 0.5em;
-            width: 97%;
+            // padding: 0.5em;
+            // margin: 0.5em;
+            // width: 97%;
             h1{
                 font-family: "greback grotesque";
                 color: #F2F2F2;
@@ -569,7 +575,6 @@ header{
             grid-column: 1/2;
             grid-row: 3/4;
             width: 100%;
-            display: flex;
             justify-content: center;
             align-items: center;
             width: 100%;

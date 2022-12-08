@@ -163,17 +163,18 @@
         background-image:url("../assets/img/FondoHormigon02.jpg");
         background: cover;
         margin: 0%;
+        padding: 0%;
         display: flex;
         flex-direction: column;
         min-height: 100vh;
         header{
             padding: 4%;
-            height: 1em;
+            height: 2em;
             flex-direction: row;
             justify-content:space-around;
             background-color: #BFB9B8;
             align-items: center;
-            width: 101%;
+            width: 100;
             a img{
                 width: 4em;
                 margin: 4em;
@@ -182,7 +183,7 @@
                 ul{
                     li{
                         list-style-type: none;
-                        margin: 0.2em;
+                        margin: 0.7em;
                         a{
                             display: flex;
                             flex-direction: row;
@@ -196,6 +197,7 @@
             }
         }
         .main-landing{
+            padding: 0%;
             display: grid;
             width: 100%;
             grid-template-columns: 30% 40% 30%;
@@ -615,10 +617,12 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                margin: 1em;
+                align-items: center;
                 height: 90%;
+                padding: 0%;
+                margin: 0%;
                 .hacemos-img{
-                    width: 90%;
+                    width: 92.5%;
                     border-radius: 1em;
                     box-shadow: 10px 5px 5px #403D3D;
                 }
@@ -627,7 +631,7 @@
         .container-social{
             justify-content: center;
             bottom:0;
-            margin-top: auto;
+            margin-top:5%;
             div{
                 padding: 0.4em;
                 margin: 0;
@@ -655,36 +659,38 @@
         width: 100vw;
         display: flex;
         flex-direction: column;
+        padding: 0%;
         header{
-            padding: 2%;
-            height: 4em;
-            background-color: #BFB9B8;
+            padding: 4%;
+            height: 2em;
             flex-direction: row;
             justify-content:space-around;
+            background-color: #BFB9B8;
             align-items: center;
+            width: 100;
             a img{
                 width: 4em;
-                padding-left: 20%;
-                margin-left: 0%;
+                margin: 4em;
             }
             nav{
                 ul{
                     li{
                         list-style-type: none;
-                        margin: 0.1em;
+                        margin: 0.7em;
                         a{
+                            display: flex;
                             flex-direction: row;
-                            justify-content: space-around;
+                            justify-content: space-between;
                             text-decoration: none;
                             font-family: "greback grotesque";
                             font-size: 1.2em;
-                            padding: 0.5em;
                         }
                     }
                 }
             }
         }
         .main-queHacemos-container{
+            padding: 0%;
             display: grid;
             width: 100%;
             grid-template-columns: 40% 60% ;
@@ -958,7 +964,7 @@
         min-height: 100vh;
         header{
             padding-top: 2%;
-            height: 3em;
+            height: 4em;
             flex-direction: row;
             justify-content:space-around;
             background-color: #BFB9B8;
@@ -973,7 +979,7 @@
                     padding: 1%;
                     li{
                         list-style-type: none;
-                        margin: 0.1em;
+                        margin: 0.2em;
                         a{
                             flex-direction: row;
                             text-decoration: none;
@@ -1029,7 +1035,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1199px){
     .header-home{
         padding: 4%;
-        height: 6em;
+        height: 7em;
         flex-direction: row;
         justify-content:space-around;
         background-color: #BFB9B8;
@@ -1043,7 +1049,7 @@
             ul{
                 li{
                     list-style-type: none;
-                    margin: 0.2em;
+                    margin: 0.7em;
                     a{
                         display: flex;
                         flex-direction: row;
@@ -1075,7 +1081,7 @@
     .container-social{
         justify-content: center;
         bottom:0;
-        margin-top: auto;
+        margin-top: 5%;
         background-color: #BFB9B8;
         div{
             padding: 0.4em;
@@ -1163,7 +1169,7 @@
         min-height: 100vh;
         header{
             padding-top: 2%;
-            height: 3em;
+            height: 4em;
             flex-direction: row;
             justify-content:space-around;
             background-color: #BFB9B8;
@@ -1178,7 +1184,7 @@
                     padding: 1%;
                     li{
                         list-style-type: none;
-                        margin: 0.1em;
+                        margin: 0.2em;
                         a{
                             flex-direction: row;
                             text-decoration: none;
@@ -1254,7 +1260,7 @@
         min-height: 100vh;
         header{
             padding: 4%;
-            height: 1em;
+            height: 3em;
             flex-direction: row;
             justify-content:space-around;
             background-color: #BFB9B8;
@@ -1268,7 +1274,7 @@
                 ul{
                     li{
                         list-style-type: none;
-                        margin: 0.2em;
+                        margin: 0.7em;
                         a{
                             display: flex;
                             flex-direction: row;
@@ -1439,7 +1445,7 @@
         min-height: 100vh;
         header{
             padding-top: 2%;
-            height: 3em;
+            height: 4em;
             flex-direction: row;
             justify-content:space-around;
             background-color: #BFB9B8;
@@ -1454,7 +1460,7 @@
                     padding: 1%;
                     li{
                         list-style-type: none;
-                        margin: 0.1em;
+                        margin: 0.2em;
                         a{
                             flex-direction: row;
                             text-decoration: none;
@@ -1532,7 +1538,7 @@
         min-height: 100vh;
         header{
             padding: 4%;
-            height: 1em;
+            height: 3em;
             flex-direction: row;
             justify-content:space-around;
             background-color: #BFB9B8;
@@ -1546,7 +1552,7 @@
                 ul{
                     li{
                         list-style-type: none;
-                        margin: 0.2em;
+                        margin: 0.7em;
                         a{
                             display: flex;
                             flex-direction: row;
@@ -1721,7 +1727,7 @@
         min-height: 100vh;
         header{
             padding-top: 2%;
-            height: 3em;
+            height: 4em;
             flex-direction: row;
             justify-content:space-around;
             background-color: #BFB9B8;
@@ -1736,7 +1742,7 @@
                     padding: 1%;
                     li{
                         list-style-type: none;
-                        margin: 0.1em;
+                        margin: 0.2em;
                         a{
                             flex-direction: row;
                             text-decoration: none;
@@ -1909,319 +1915,79 @@
 }
 /* @MediaQuerys questions and contact TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 1199px){
-    .flex-container-body-preg{
-        background-image:url("../assets/img/FondoHormigon02.jpg");
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        width: 100vw;
-        overflow-x: hidden;
-        header{
-            padding: 4%;
-            height: 1em;
-            flex-direction: row;
-            justify-content:space-around;
-            background-color: #BFB9B8;
-            align-items: center;
-            width: 110%;
-            a img{
-                width: 4em;
-                margin: 4em;
-            }
-            nav{
-                ul{
-                    li{
-                        list-style-type: none;
-                        margin: 0.2em;
-                        a{
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-between;
-                            text-decoration: none;
-                            font-family: "greback grotesque";
-                            font-size: 1.2em;
-                        }
+    header{
+        padding: 3%;
+        height: 1em;
+        flex-direction: row;
+        justify-content:space-between;
+        background-color: #BFB9B8;
+        align-items: center;
+        width: 100;
+        a img{
+            width: 4em;
+            margin: 4em;
+        }
+        nav{
+            ul{
+                li{
+                    list-style-type: none;
+                    margin: 0.7em;
+                    a{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        text-decoration: none;
+                        font-family: "greback grotesque";
+                        font-size: 1.2em;
                     }
                 }
             }
         }
-        .main-preg-container{
+    }
+    .main-preg-container{
+        padding: 0%;
+        width: 100vw;
+        .razones{
+            width: 96%;
+        }
+        .preg-container{
             display: flex;
             flex-direction: column;
-            align-items: center;
-            .razones{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                width: 100vw;
-                h1{
-                    width: 100%;
-                    font-size: 1.5em;
-                    font-family: "greback grotesque";
-                    text-align: center;
-                    padding: 0.5em;
-                    color: #F2F2F2;
-                    padding: 0.5em;
-                    margin: 0.5em;
-                    background-color: #403D3D;
-                    border-radius: 0.3em;
-                    box-shadow: 10px 5px 5px #403D3D;
-                }
-            }
-            .preg-container{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                .preg-box01{
-                    background-color:#F2F2F2;
-                    padding: 0.5em;
-                    margin: 1em;
-                    border: solid 0.3em;
-                    border-radius: 1em;
-                    box-shadow: 10px 5px 5px #403D3D;
-                    width: 100vw;
-                    h3{
-                        font-family: "greback grotesque";
-                        color: #F2F2F2;
-                        padding: 0.5em;
-                        margin: 0.5em;
-                        background-color: #403D3D;
-                        border-radius: 0.3em;
-                        width: 30.5%;
-                        width: 95%;
-                    }
-                    li{
-                        font-family: "greback grotesque";
-                        font-size: 1.2em;
-                        list-style-type: none;
-                        padding: 0.5em;
-                        margin: 0%;
-                    }
-                }
-                .preg-box02{
-                    background-color:#F2F2F2;
-                    padding: 0.5em;
-                    margin: 1em;
-                    border: solid 0.3em;
-                    border-radius: 1em;
-                    box-shadow: 10px 5px 5px #403D3D;
-                    width: 100vw;
-                    h3{
-                        font-family: "greback grotesque";
-                        color: #F2F2F2;
-                        padding: 0.5em;
-                        margin: 0.5em;
-                        background-color: #403D3D;
-                        border-radius: 0.3em;
-                        width: 30.5%;
-                        width: 95%;
-                    }
-                    li{
-                        font-family: "greback grotesque";
-                        font-size: 1.2em;
-                        list-style-type: none;
-                        padding: 0.5em;
-                        margin: 0%;
-                    }
-                }
-                .preg-box03{
-                    background-color:#F2F2F2;
-                    width: 100vw;
-                    padding: 0.5em;
-                    margin: 1em;
-                    border: solid 0.3em;
-                    border-radius: 1em;
-                    box-shadow: 10px 5px 5px #403D3D;
-                    height: 20%;
-                    h3{
-                        font-family: "greback grotesque";
-                        color: #F2F2F2;
-                        padding: 0.5em;
-                        margin: 0.5em;
-                        background-color: #403D3D;
-                        border-radius: 0.3em;
-                        width: 30.5%;
-                        width: 95%;
-                    }
-                    li{
-                        font-family: "greback grotesque";
-                        font-size: 1.2em;
-                        list-style-type: none;
-                        padding: 0.5em;
-                        margin: 0%;
-                    }
-                }
-                .preg-box04{
-                    background-color:#F2F2F2;
-                    width: 100vw;
-                    padding: 0.5em;
-                    margin: 1em;
-                    border: solid 0.3em;
-                    border-radius: 1em;
-                    box-shadow: 10px 5px 5px #403D3D;
-                    height: 20%;
-                }
-            }
-            .preg-box05{
-                display: none;
-                justify-content: center;
-                align-items: center;
-                width: 100vw;
-            }
-            .contacto{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                h1{
-                    width: 100vw;
-                    font-family: "greback grotesque";
-                    color: #F2F2F2;
-                    font-size: 1.7em;
-                    text-align: center;
-                    background-color: #403D3D;
-                    padding: 0.3em;
-                    margin: 0.3em;
-                    border-radius: 0.3em;
-                    box-shadow: 10px 5px 5px #403D3D;
-                }
-                form{
-                    .datos-personales{
-                        display: flex;
-                        flex-direction: column;
-                        fieldset{
-                            width: 100vw;
-                            background-color:#A69B98;
-                            border-radius: 0.3em;
-                            border: 0;
-                            padding: 0.5em;
-                            margin: 0.5em;
-                            box-shadow: 10px 5px 5px #403D3D;
-                            legend{
-                                font-family: "greback grotesque";
-                                font-weight: 700;
-                                font-size: 1.7em;
-                                color: #403D3D;
-                            }
-                            label{
-                                padding-right: 5%;
-                                font-family: "greback grotesque";
-                                font-size: 1.1em;
-                                color: #403D3D;
-                            }
-                            input{
-                                width: 96%;
-                            }
-                        }
-                    }
-                    .comentarios{
-                        display: flex;
-                        flex-direction: column;
-                        fieldset{
-                            width: 100vw;
-                            background-color:#A69B98;
-                            border-radius: 0.3em;
-                            border: 0;
-                            padding: 0.5em;
-                            margin: 0.5em;
-                            box-shadow: 10px 5px 5px #403D3D;
-                            legend{
-                                font-family: "greback grotesque";
-                                font-weight: 700;
-                                font-size: 1.7em;
-                                color: #403D3D;
-                            }
-                            label{
-                                padding-right: 5%;
-                                font-family: "greback grotesque";
-                                font-size: 1.1em;
-                                color: #403D3D;
-                            }
-                            textarea{
-                                font-family: "greback grotesque";
-                                font-size: 1em;
-                                color: #403D3D;
-                                width: 90%;
-                            }
-                        }
-                    }
-                    .img-adj{
-                        fieldset{
-                            width: 100vw;
-                            display: flex;
-                            flex-direction: column;
-                            background-color:#A69B98;
-                            border-radius: 0.3em;
-                            border: 0;
-                            padding: 0.5em;
-                            margin: 0.5em;
-                            box-shadow: 10px 5px 5px #403D3D;
-                            legend{
-                                font-family: "greback grotesque";
-                                font-weight: 700;
-                                font-size: 1.7em;
-                                color: #403D3D;
-                            }
-                            label{
-                                padding-right: 5%;
-                                font-family: "greback grotesque";
-                                font-size: 1.1em;
-                                color: #403D3D;
-                            }
-                        }
-                    }
-                    .enviar{
-                        fieldset{
-                            width: 100vw;
-                            display: flex;
-                            flex-direction: column;
-                            background-color:#A69B98;
-                            border-radius: 0.3em;
-                            border: 0;
-                            padding: 0.5em;
-                            margin: 0.5em;
-                            box-shadow: 10px 5px 5px #403D3D;
-                            legend{
-                                font-family: "greback grotesque";
-                                font-weight: 700;
-                                font-size: 1.7em;
-                                color: #403D3D;
-                            }
-                            input{
-                                font-family: "greback grotesque";
-                                font-size: 1em;
-                                color: #403D3D;
-                            }
-                        }
-                    }
-                }
-            }
-            .preg-box06{
-                display: none;
-            }
-        }
-        .container-social{
             justify-content: center;
-            bottom:0;
-            margin-top: auto;
-            background-color: #BFB9B8;
-            width: 110%;
-            div{
-                padding: 0.4em;
-                margin: 0;
+            align-items: center;
+            width: 100%;
+        }
+        .preg-box05{
+            display: none;
+        }
+        .contacto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 96%;
+        }
+        .preg-box06{
+            display: none;
+        }
+    }
+    .container-social{
+        justify-content: center;
+        bottom:0;
+        margin-top: auto;
+        background-color: #BFB9B8;
+        width: 100%;
+        div{
+            padding-right:0.4em;
+            margin: 0;
+            text-align: center;
+            a{
+                text-decoration: none;
+            }
+            #copyright p{
+                font-family: "greback grotesque";
                 text-align: center;
-                a{
-                    text-decoration: none;
-                }
-                #copyright p{
-                    font-family: "greback grotesque";
-                    text-align: center;
-                    font-size: 1.4em;
-                    justify-content: center;
-                }
+                font-size: 1.2em;
+                justify-content: center;
             }
         }
     }
