@@ -304,22 +304,12 @@ header{
         margin: 0%;
         display: flex;
         flex-direction: column;
-        // display: grid;
-        // width: 100%;
-        // grid-template-columns: 50% 50% ;
-        // grid-template-rows: 6% 47% 47%;
         align-items: center;
-        // grid-template-areas:
-        // "xq xq"
-        // "razon img"
-        // "img cont";
         .razones{
             /* background-color: aqua; */
-            grid-area: xq;
-            grid-column: 1/3;
-            grid-row: 1/2;
             display: flex;
             flex-direction: column;
+            width: 91.5%;
             h1{
                 font-size: 2em;
                 font-family: "greback grotesque";
@@ -335,14 +325,11 @@ header{
         }
         .preg-container{
             /* background-color: yellow; */
-            grid-area: razon;
-            grid-column: 1/2;
-            grid-row: 2/3;
             height: 100%;
             .preg-box01{
                 background-color:#F2F2F2;
-                width: 90%;
-                padding: 0.5em;
+                width: 90vw;
+                padding: 0%;
                 margin: 1em;
                 border: solid 0.3em;
                 border-radius: 1em;
@@ -368,8 +355,8 @@ header{
             }
             .preg-box02{
                 background-color:#F2F2F2;
-                width: 90%;
-                padding: 0.5em;
+                width: 90vw;
+                padding: 0%;
                 margin: 1em;
                 border: solid 0.3em;
                 border-radius: 1em;
@@ -395,8 +382,8 @@ header{
             }
             .preg-box03{
                 background-color:#F2F2F2;
-                width: 90%;
-                padding: 0.5em;
+                width: 90vw;
+                padding: 0%;
                 margin: 1em;
                 border: solid 0.3em;
                 border-radius: 1em;
@@ -422,8 +409,8 @@ header{
             }
             .preg-box04{
                 background-color:#F2F2F2;
-                width: 90%;
-                padding: 0.5em;
+                width: 90vw;
+                padding: 0%;
                 margin: 1em;
                 border: solid 0.3em;
                 border-radius: 1em;
@@ -451,26 +438,25 @@ header{
         }
         .preg-box05{
             /*background-color: orange;*/
-            grid-area: img;
-            grid-column: 2/3;
-            grid-row: 2/3;
             width: 100%;
-            display: none;
+            display: flex;
             justify-content: center;
             align-items: center;
             .razon-img{
-                width: 95%;
+                width: 90%;
+                align-items: center;
+                justify-content: center;
+                padding: 0%;
+                margin: 2%;
                 border-radius: 5em;
                 box-shadow: 10px 5px 5px #403D3D;
             }
         }
         .contacto{
-            grid-area: cont;
-            grid-column: 2/3;
-            grid-row: 3/4;
-            // padding: 0.5em;
-            // margin: 0.5em;
-            // width: 97%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
             h1{
                 font-family: "greback grotesque";
                 color: #F2F2F2;
@@ -485,6 +471,8 @@ header{
             form{
                 .datos-personales{
                     fieldset{
+                        display: flex;
+                        flex-direction: column;
                         background-color:#A69B98;
                         border-radius: 0.3em;
                         border: 0;
@@ -498,6 +486,7 @@ header{
                             color: #403D3D;
                         }
                         label{
+                            padding: 0.2em;
                             font-family: "greback grotesque";
                             font-size: 1.2em;
                             color: #403D3D;
@@ -505,6 +494,8 @@ header{
                     }
                 }
                 .comentarios{
+                    display: flex;
+                    flex-direction: column;
                     fieldset{
                         background-color:#A69B98;
                         border-radius: 0.3em;
@@ -519,6 +510,8 @@ header{
                             color: #403D3D;
                         }
                         textarea{
+                            align-items: center;
+                            width: 99%;
                             font-family: "greback grotesque";
                             font-size: 1.2em;
                             color: #403D3D;
@@ -571,15 +564,16 @@ header{
         }
         .preg-box06{
             /* background-color:blueviolet; */
-            grid-area: img;
-            grid-column: 1/2;
-            grid-row: 3/4;
             width: 100%;
+            display: flex;
             justify-content: center;
             align-items: center;
-            width: 100%;
             img{
-                width: 95%;
+                width: 90%;
+                align-items: center;
+                justify-content: center;
+                padding: 0%;
+                margin: 2%;
                 border-radius: 5em;
                 box-shadow: 10px 5px 5px #403D3D;
             }
